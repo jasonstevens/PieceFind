@@ -1,35 +1,55 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import { Suspense } from 'react';
+import { Routes, Route } from 'react-router';
+import { ThemeProvider } from '@mui/material';
+import { createTheme } from '@mui/material/styles';
 
-function App() {
-  const [count, setCount] = useState(0)
+import NoMatch from './component/NoMatch';
+import ErrorBoundary from './component/core/ErrorBoundary';
+import Nav from './component/core/Nav'
+import Root from './component/page/Root';
+import React from 'react';
 
+const theme = createTheme({
+  palette: {
+  },
+  components: {
+    MuiAccordionSummary: {
+      styleOverrides: {
+        root: {
+          '&:focus': {
+            outline: 'none',
+          },
+        },
+      },
+    },
+  },
+
+});
+
+const EventsMap = React.lazy(() => import('./component/page/EventsMap'));
+
+const App = () => {
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      <ThemeProvider theme={theme}>
+        <ErrorBoundary>
+          <Suspense>
+            <Routes>
+              <Route path="/" element={<Nav />}>
+                <Route path="/" element={<Root />} />
 
-export default App
+              </Route>
+              <Route path="map" element={<EventsMap />} />
+
+              <Route path="*" element={<NoMatch />} />
+            </Routes>
+          </Suspense>
+
+        </ErrorBoundary>
+      </ThemeProvider>
+    </>
+  );
+};
+
+export default App;
