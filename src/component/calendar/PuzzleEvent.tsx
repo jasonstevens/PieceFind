@@ -9,11 +9,14 @@ export interface PuzzleEvent {
   location: string;
   locationDesc?: string;
   state?: string;
+
   url?: string;
   ticketUrl?: string;
   facebookUrl?: string;
   streamUrl?: string;
   mapUrl?: string;
+  instagramUrl?: string;
+
   info?: string;
   time?: string;
   day: number;
@@ -27,11 +30,11 @@ export interface PuzzleEvent {
 
 export const eventsList: PuzzleEvent[] = [
   {
-    location: "UK", day: 22, year: "22nd", name: 'Championship: Cardiff', organiser: 'ukjpa-cardiff', locationDesc: "Cardiff, Wales", host: "ukjpa", eventDate: '2026-02', url: '/cardiff2026/', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91587', mapUrl: 'https://maps.app.goo.gl/be62nMEtoenA7Lnv5',
+    location: "UK", day: 22, year: "22nd", name: 'Championship: Cardiff', organiser: 'ukjpa-cardiff', locationDesc: "Cardiff, Wales", host: "ukjpa", eventDate: '2026-02', url: 'https://ukjpa.org/cardiff2026/', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91587', mapUrl: 'https://maps.app.goo.gl/be62nMEtoenA7Lnv5',
     latitude: 51.471149385793254, longitude: -3.20049132912831, mapName: 'Cardiff'
   },
   {
-    location: "UK", day: 18, year: "18th & 19th", name: 'UK Nationals 2026', organiser: 'ukjpa-nationals', locationDesc: "Bradford, Yorkshire", host: "ukjpa", eventDate: '2026-04', url: '/nationals2026/', mapUrl: 'https://maps.app.goo.gl/rwNkK5dM8oJiQ8UZ9',
+    location: "UK", day: 18, year: "18th & 19th", name: 'UK Nationals 2026', organiser: 'ukjpa-nationals', locationDesc: "Bradford, Yorkshire", host: "ukjpa", eventDate: '2026-04', url: 'https://ukjpa.org/nationals2026/', mapUrl: 'https://maps.app.goo.gl/rwNkK5dM8oJiQ8UZ9',
     latitude: 53.84026951006154, longitude: -1.7003488275568006, mapName: 'UK Nationals'
   },
 
@@ -41,8 +44,8 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: "EUR", day: 15, year: "27th - 28th", name: 'Swiss Nationals 2026', organiser: 'wjpf', locationDesc: "Valladolid, Spain", host: "ukjpa", eventDate: '2025-09', url: 'https://worldjigsawpuzzle.org/wjpc/2025', ticketUrl: 'https://worldjigsawpuzzle.org/wjpc/2025/register', streamUrl: 'https://www.youtube.com/@worldjigsawpuzzlefederation/streams',
-    latitude: 47.40593646969789, longitude: 9.634036255592605, mapName: 'Swiss Nationals',
+    location: "EUR", day: 15, year: "27th - 28th", name: 'Swiss Nationals 2026', organiser: 'schweizer', locationDesc: "Valladolid, Spain", host: "ukjpa", eventDate: '2025-09', url: 'https://schweizerpuzzlemeisterschaft.ch/', instagramUrl: 'https://www.instagram.com/schweizer_puzzle_meisterschaft/',
+    latitude: 47.40593646969789, longitude: 9.634036255592605, mapName: 'Swiss Nationals', soldOut: true
   },
 
   {
@@ -68,6 +71,16 @@ export const eventsList: PuzzleEvent[] = [
   { location: "OL", day: 22, year: "22nd", name: 'Euro Jigsaw Jam #97', organiser: 'ejj', host: "ejj", eventDate: '2025-10', url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true },
   { location: "OL", day: 29, year: "29th", name: 'Euro Jigsaw Jam #99', organiser: 'ejj', host: "ejj", eventDate: '2025-10', url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true },
   { location: "OL", day: 6, year: "6th", name: 'Euro Jigsaw Jam #100', organiser: 'ejj', host: "ejj", eventDate: '2025-11', url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true },
+
+  {
+    location: "AU", year: "19th", day: 19, name: 'ACT Championship', organiser: 'ajpa', locationDesc: "Canberra, ACT", host: "AJPA", eventDate: '2025-10', url: 'https://australianjigsawpuzzle.org.au/', ticketUrl: 'act-jigsaw-2025.eventbrite.com.au',
+    latitude: -35.231890583245246, longitude: 149.14536062381032, mapName: 'ACT Championship'
+  },
+  {
+    location: "AU", year: "29th, 30th", day: 29, name: 'Australian Nationals', organiser: 'ajpa', locationDesc: "Canberra, ACT", host: "AJPA", eventDate: '2025-11', url: 'https://australianjigsawpuzzle.org.au/', ticketUrl: 'https://www.eventbrite.com.au/e/australian-national-jigsaw-puzzle-championships-2025-tickets-1387948975749',
+    latitude: -37.843405800617425, longitude: 144.96203685571132, mapName: "Australian Nationals"
+  },
+
 
   // { id: 1, state: "VIC", year: "April 12", name: 'Competition for a Cause #3', organiser: 'cfac-rb', location: "Melbourne, Victoria", host: "Lou and Friends", eventDate: 'April', facebookUrl: 'https://www.facebook.com/profile.php?id=61554286572489', ticketUrl: "https://www.trybooking.com/CNXGL", streamUrl: "https://www.youtube.com/channel/UCmdflON963xK4H9HeiozFwA", info: "Competition for a Cause is a family-friendly community-focused event raising money for the Headspace National Youth Charity" },
   // { id: 10, state: "VIC", year: "2025", name: 'Competition for a Cause #4', organiser: 'cfac', location: "Melbourne, Victoria", host: "Lou and Friends", eventDate: '2025', url: 'https://www.facebook.com/profile.php?id=61554286572489' },
