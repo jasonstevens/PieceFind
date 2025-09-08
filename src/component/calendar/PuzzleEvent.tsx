@@ -30,36 +30,43 @@ export interface PuzzleEvent {
 
 export const eventsList: PuzzleEvent[] = [
   {
-    location: "UK", day: 22, year: "22nd", name: 'Championship: Cardiff', organiser: 'ukjpa-cardiff', locationDesc: "Cardiff, Wales", host: "ukjpa", eventDate: '2026-02', url: 'https://ukjpa.org/cardiff2026/', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91587', mapUrl: 'https://maps.app.goo.gl/be62nMEtoenA7Lnv5',
+    location: "UK", day: 22, year: "22nd", name: 'Championship: Cardiff', organiser: 'ukjpa-cardiff', locationDesc: "Cardiff, Wales", host: "ukjpa", eventDate: '2026-02',
+    url: 'https://ukjpa.org/cardiff2026/', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91587', mapUrl: 'https://maps.app.goo.gl/be62nMEtoenA7Lnv5',
     latitude: 51.471149385793254, longitude: -3.20049132912831, mapName: 'Cardiff'
   },
   {
-    location: "UK", day: 18, year: "18th & 19th", name: 'UK Nationals 2026', organiser: 'ukjpa-nationals', locationDesc: "Bradford, Yorkshire", host: "ukjpa", eventDate: '2026-04', url: 'https://ukjpa.org/nationals2026/', mapUrl: 'https://maps.app.goo.gl/rwNkK5dM8oJiQ8UZ9',
+    location: "UK", day: 18, year: "18th & 19th", name: 'UK Nationals 2026', organiser: 'ukjpa-nationals', locationDesc: "Bradford, Yorkshire", host: "ukjpa", eventDate: '2026-04',
+    url: 'https://ukjpa.org/nationals2026/', mapUrl: 'https://maps.app.goo.gl/rwNkK5dM8oJiQ8UZ9',
     latitude: 53.84026951006154, longitude: -1.7003488275568006, mapName: 'UK Nationals'
   },
 
   {
-    location: "EUR", day: 15, year: "15th - 21st", name: 'World Championships', organiser: 'wjpf', locationDesc: "Valladolid, Spain", host: "ukjpa", eventDate: '2025-09', url: 'https://worldjigsawpuzzle.org/wjpc/2025', ticketUrl: 'https://worldjigsawpuzzle.org/wjpc/2025/register', streamUrl: 'https://www.youtube.com/@worldjigsawpuzzlefederation/streams',
+    location: "EUR", day: 15, year: "15th - 21st", name: 'World Championships', organiser: 'wjpf', locationDesc: "Valladolid, Spain", host: "ukjpa", eventDate: '2025-09',
+    url: 'https://worldjigsawpuzzle.org/wjpc/2025', ticketUrl: 'https://worldjigsawpuzzle.org/wjpc/2025/register', streamUrl: 'https://www.youtube.com/@worldjigsawpuzzlefederation/streams',
     latitude: 41.649033619745836, longitude: -4.735380766189017, mapName: 'WJPC'
   },
 
   {
-    location: "EUR", day: 15, year: "27th - 28th", name: 'Swiss Nationals 2026', organiser: 'schweizer', locationDesc: "Valladolid, Spain", host: "ukjpa", eventDate: '2025-09', url: 'https://schweizerpuzzlemeisterschaft.ch/', instagramUrl: 'https://www.instagram.com/schweizer_puzzle_meisterschaft/',
+    location: "EUR", day: 15, year: "27th - 28th", name: 'Swiss Nationals 2026', organiser: 'schweizer', locationDesc: "Valladolid, Spain", host: "ukjpa", eventDate: '2025-09',
+    url: 'https://schweizerpuzzlemeisterschaft.ch/', instagramUrl: 'https://www.instagram.com/schweizer_puzzle_meisterschaft/',
     latitude: 47.40593646969789, longitude: 9.634036255592605, mapName: 'Swiss Nationals', soldOut: true
   },
 
   {
-    location: "UK", day: 30, year: "30th", name: 'Lytham Marathon', organiser: 'kobold', locationDesc: "Lytham, Lancashire", host: "koboldskettle", eventDate: '2025-11', url: 'https://thekoboldskettle.co.uk/', ticketUrl: "https://thekoboldskettle.co.uk/all-events/?event=2263",
+    location: "UK", day: 30, year: "30th", name: 'Lytham Marathon', organiser: 'kobold', locationDesc: "Lytham, Lancashire", host: "koboldskettle", eventDate: '2025-11',
+    url: 'https://thekoboldskettle.co.uk/', ticketUrl: "https://thekoboldskettle.co.uk/all-events/?event=2263",
     latitude: 53.73715882150867, longitude: -2.964154098052793, mapName: 'Lytham Marathon', mapOffset: true, multiLine: true
   },
 
   {
-    location: "EUR", day: 30, year: "30th", name: 'Aschheim Marathon', organiser: 'generic', locationDesc: "Munchen, Deutchland", host: "wjpf", eventDate: '2025-11', url: 'https://puzzleverein.de/event.php?id=4',
+    location: "EUR", day: 30, year: "30th", name: 'Aschheim Marathon', organiser: 'generic', locationDesc: "Munchen, Deutchland", host: "wjpf", eventDate: '2025-11',
+    url: 'https://puzzleverein.de/event.php?id=4',
     latitude: 48.172308466621544, longitude: 11.715970488180144, mapName: 'Aschheim Marathon', mapOffset: true, multiLine: true
   },
 
   {
-    location: "AM", day: 18, year: "18th - 19th", name: 'Brazil Nationals', organiser: 'generic', locationDesc: "Sao Paolo, Brazil", host: "wjpf", eventDate: '2025-10', url: 'https://worldjigsawpuzzle.org/abqc/2025/register', ticketUrl: 'https://worldjigsawpuzzle.org/abqc/2025/register',
+    location: "AM", day: 18, year: "18th - 19th", name: 'Brazil Nationals', organiser: 'generic', locationDesc: "Sao Paolo, Brazil", host: "wjpf", eventDate: '2025-10',
+    url: 'https://worldjigsawpuzzle.org/abqc/2025/register', ticketUrl: 'https://worldjigsawpuzzle.org/abqc/2025/register',
     latitude: -23.539916463993016, longitude: -46.64488067582398, mapName: 'Brazil Nationals'
   },
 
@@ -103,18 +110,5 @@ export const eventsList: PuzzleEvent[] = [
     location: "AU", year: "29th, 30th", day: 29, name: 'Australian Nationals', organiser: 'ajpa', locationDesc: "Canberra, ACT", host: "AJPA", eventDate: '2025-11', url: 'https://australianjigsawpuzzle.org.au/', ticketUrl: 'https://www.eventbrite.com.au/e/australian-national-jigsaw-puzzle-championships-2025-tickets-1387948975749',
     latitude: -37.843405800617425, longitude: 144.96203685571132, mapName: "Australian Nationals"
   },
-
-
-  // { id: 1, state: "VIC", year: "April 12", name: 'Competition for a Cause #3', organiser: 'cfac-rb', location: "Melbourne, Victoria", host: "Lou and Friends", eventDate: 'April', facebookUrl: 'https://www.facebook.com/profile.php?id=61554286572489', ticketUrl: "https://www.trybooking.com/CNXGL", streamUrl: "https://www.youtube.com/channel/UCmdflON963xK4H9HeiozFwA", info: "Competition for a Cause is a family-friendly community-focused event raising money for the Headspace National Youth Charity" },
-  // { id: 10, state: "VIC", year: "2025", name: 'Competition for a Cause #4', organiser: 'cfac', location: "Melbourne, Victoria", host: "Lou and Friends", eventDate: '2025', url: 'https://www.facebook.com/profile.php?id=61554286572489' },
-  // { id: 2, state: "SA", year: "May 3-4", name: 'Jigsaw Mania & SA Championships', organiser: 'ajpa-rb', location: "Willunga, South Australia", host: "Jigsaw Willunga", eventDate: 'May', url: 'https://willungarecpark.com.au/willunga-jigsaw/', ticketUrl: "https://events.humanitix.com/willunga-jigsaw-mania-2025", facebookUrl: "https://www.facebook.com/WillungaJigsawMania" },
-  // { id: 3, state: "QLD", year: "2025", name: 'QLD State Championships', organiser: 'ajpa', location: "Brisbane, Queensland", host: "AJPA", eventDate: '2025', url: 'https://australianjigsawpuzzle.org.au/' },
-  // { id: 4, state: "VIC", year: "2025", name: 'Victoria State Championships', organiser: 'ajpa', location: "Melbourne, Victoria", host: "AJPA", eventDate: '2025', url: 'https://australianjigsawpuzzle.org.au/' },
-  // { id: 5, state: "NSW", year: "2025", name: 'NSW State Championships', organiser: 'ajpa', location: "Sydney, New South Wales", host: "AJPA", eventDate: '2025', url: 'https://australianjigsawpuzzle.org.au/' },
-  // { id: 6, state: "ACT", year: "2025", name: 'ACT State Championships', organiser: 'ajpa', location: "Canberra, ACT", host: "AJPA", eventDate: '2025', url: 'https://australianjigsawpuzzle.org.au/' },
-  // { id: 7, state: "WA", year: "2025", name: 'WA State Championships', organiser: 'ajpa', location: "Perth, WA", host: "AJPA", eventDate: '2025', url: 'https://australianjigsawpuzzle.org.au/' },
-  // { id: 8, state: "TAS", year: "2025", name: 'Tasmania State Championships', organiser: 'ajpa', location: "Hobart, Tasmania", host: "AJPA", eventDate: '2025', url: 'https://australianjigsawpuzzle.org.au/' },
-  // { id: 10, state: "QLD", year: "June 28-29", name: 'Jigsaw Jamboree', organiser: 'asjpe', location: "Gold Coast, Queensland", host: "ASJPE", eventDate: 'June', url: 'https://www.asjpe.com/jigsaw-jamboree-2025', ticketUrl: "https://www.trybooking.com/events/landing/1323488" },
-
 
 ];
