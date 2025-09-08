@@ -54,7 +54,7 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: "EUR", day: 30, year: "30th", name: 'Aschheim Marathon', organiser: 'wjpf', locationDesc: "Munchen, Deutchland", host: "wjpf", eventDate: '2025-11', url: 'https://puzzleverein.de/event.php?id=4',
+    location: "EUR", day: 30, year: "30th", name: 'Aschheim Marathon', organiser: 'generic', locationDesc: "Munchen, Deutchland", host: "wjpf", eventDate: '2025-11', url: 'https://puzzleverein.de/event.php?id=4',
     latitude: 48.172308466621544, longitude: 11.715970488180144, mapName: 'Aschheim Marathon', mapOffset: true, multiLine: true
   },
 
