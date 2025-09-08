@@ -58,6 +58,29 @@ export const eventsList: PuzzleEvent[] = [
     latitude: 48.172308466621544, longitude: 11.715970488180144, mapName: 'Aschheim Marathon', mapOffset: true, multiLine: true
   },
 
+  {
+    location: "AM", day: 18, year: "18th - 19th", name: 'Brazil Nationals', organiser: 'generic', locationDesc: "Sao Paolo, Brazil", host: "wjpf", eventDate: '2025-10', url: 'https://worldjigsawpuzzle.org/abqc/2025/register', ticketUrl: 'https://worldjigsawpuzzle.org/abqc/2025/register',
+    latitude: -23.539916463993016, longitude: -46.64488067582398, mapName: 'Brazil Nationals'
+  },
+
+  {
+    location: "AM", day: 31, year: "31st - 1st", name: 'Colombia Nationals', organiser: 'generic', locationDesc: "Bogota, Colombia", host: "wjpf", eventDate: '2026-01',
+    url: 'https://www.rompecabezascolombia.com.co/v-campeonato',
+    latitude: 4.598242267014361, longitude: -74.07604010473753, mapName: 'Colombia Nationals'
+  },
+
+  {
+    location: "AM", day: 31, year: "28th - 29th", name: 'Puzzle Wave 24hr', organiser: 'generic', locationDesc: "Ontario, Canada", host: "wjpf", eventDate: '2026-03',
+    url: 'https://www.canadianjpa.ca/activities/puzzlewave',
+    latitude: 44.007325939298276, longitude: -79.40676705862401, mapName: 'Puzzle Wave 24hr'
+  },
+
+  {
+    location: "EUR", day: 18, year: "18th - 19th", name: 'Luxembourg Nationals', organiser: 'generic', locationDesc: "Ontario, Canada", host: "wjpf", eventDate: '2025-10',
+    url: 'http://puzzle.lu/',
+    latitude: 49.76343146465424, longitude: 5.852991782087342, mapName: 'Luxembourg Nationals'
+  },
+
   { location: "OL", day: 7, year: "7th", time: "3pm", name: 'Puzzle Guzzle #15', organiser: 'puzzleguzzle', locationDesc: "", host: "ukjpa", eventDate: '2025-09', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-15-dream-team-07-09-25-3pm' },
   { location: "OL", day: 2, year: "2nd", time: "6:30pm", name: 'Puzzle Guzzle #16', organiser: 'puzzleguzzle', locationDesc: "", host: "ukjpa", eventDate: '2025-10', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-16-individual-event-02-10-25-6-30pm' },
   { location: "OL", day: 12, year: "12th", time: "4pm", name: 'Puzzle Guzzle #17', organiser: 'puzzleguzzle', locationDesc: "", host: "ukjpa", eventDate: '2025-12', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-17-individual-event-12-10-25-4pm', soldOut: true },
