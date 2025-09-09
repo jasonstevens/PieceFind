@@ -35,7 +35,10 @@ export default function EventMonth({ puzzleEvents, month }: EMProps) {
       <>
         <Stack direction="row" sx={{ paddingTop: 1 }}>
           <Box>
-            <Typography sx={{ writingMode: 'sideways-lr', padding: 0, fontSize: '2em', fontFamily: 'League Spartan', fontWeight: 800, lineHeight: '0.8em', paddingRight: '0px', width: '1.1em' }}>
+            <Typography sx={{
+              writingMode: 'sideways-lr', padding: 0, fontSize: '2em',
+              fontFamily: 'League Spartan', fontWeight: 800, lineHeight: '0.8em', paddingRight: '0px', paddingLeft: '1px', paddingTop: '10px', width: '0.95em'
+            }}>
               {monthhName(month)}
             </Typography>
           </Box>

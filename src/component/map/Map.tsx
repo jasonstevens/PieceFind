@@ -20,7 +20,7 @@ export default function App() {
 
     const toOceania = () => { mapRef.current?.flyTo({ center: [143, -30.5], duration: speed, zoom: 3.6, roll: 0 }); };
     const toEurope = () => { mapRef.current?.flyTo({ center: [3.8, 50], duration: speed, zoom: 3.85, roll: 0 }); };
-    const toAmericas = () => { mapRef.current?.flyTo({ center: [-79, 16], duration: speed, zoom: 2.2, roll: -25 }); };
+    const toAmericas = () => { mapRef.current?.flyTo({ center: [-79, 11], duration: speed, zoom: 2.1, roll: -25 }); };
 
     return (
         <Map

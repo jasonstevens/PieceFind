@@ -67,7 +67,7 @@ export const eventsList: PuzzleEvent[] = [
   {
     location: "AM", day: 18, year: "18th - 19th", name: 'Brazil Nationals', organiser: 'generic', locationDesc: "Sao Paolo, Brazil", host: "wjpf", eventDate: '2025-10',
     url: 'https://worldjigsawpuzzle.org/abqc/2025/register', ticketUrl: 'https://worldjigsawpuzzle.org/abqc/2025/register',
-    latitude: -23.539916463993016, longitude: -46.64488067582398, mapName: 'Brazil Nationals'
+    latitude: -23.539916463993016, longitude: -46.64488067582398, mapName: 'Brazil Nationals', mapOffset: true, multiLine: true
   },
 
   {
