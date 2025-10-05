@@ -68,7 +68,7 @@ export function EventCard({ puzzleEvent }: ECProps) {
         }
 
         <Box sx={{ position: "absolute", top: 2, left: 5 }}>
-          <Typography sx={{ color: "white" }} fontFamily={'League Spartan'} fontSize={'1.3em'} fontWeight={600}>{puzzleEvent.year}</Typography>
+          <Typography sx={{ color: "white" }} fontFamily={'League Spartan'} fontSize={'1.3em'} fontWeight={600}>{puzzleEvent.displayDays}</Typography>
         </Box>
 
         <CardMedia
