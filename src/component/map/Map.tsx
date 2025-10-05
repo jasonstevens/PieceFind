@@ -19,13 +19,13 @@ export default function App() {
     const mapRef = useRef<MapRef>(null);
 
     const toOceania = () => { mapRef.current?.flyTo({ center: [143, -30.5], duration: speed, zoom: 3.6, roll: 0 }); };
-    const toEurope = () => { mapRef.current?.flyTo({ center: [3.8, 50], duration: speed, zoom: 3.85, roll: 0 }); };
+    const toEurope = () => { mapRef.current?.flyTo({ center: [10, 50], duration: speed, zoom: 3.1, roll: 0 }); };
     const toAmericas = () => { mapRef.current?.flyTo({ center: [-79, 11], duration: speed, zoom: 2.1, roll: -25 }); };
 
     return (
         <Map
             ref={mapRef}
-            initialViewState={{ latitude: 50, longitude: 3.8, zoom: 3.85 }}
+            initialViewState={{ latitude: 50, longitude: 10, zoom: 3.1, }}
             style={{ height: '100vh', width: '100vw' }}
             mapStyle="https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json"
         >
