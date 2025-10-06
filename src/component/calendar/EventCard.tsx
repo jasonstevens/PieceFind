@@ -50,16 +50,28 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
   ],
 }));
 
+const CardContentNoPadding = styled(CardContent)(`
+  padding: 2px;
+  &:last-child {
+    padding-bottom: 0;
+  }
+`);
+
 export function EventCard({ puzzleEvent }: ECProps) {
   const [expanded, setExpanded] = React.useState(false);
   const handleExpandClick = () => { setExpanded(!expanded); };
 
   return (
-    <Card elevation={2} sx={{ backgroundColor: "#00000033" }}>
+    <Card elevation={2} sx={{ backgroundColor: "#00000035" }}>
       <CardActionArea component="a" href={puzzleEvent.url} target="_blank" >
+        <Box sx={{ position: "absolute", top: 0, left: 4 }}>
+          <Typography fontFamily={'League Spartan'} fontSize={'1.3em'} fontWeight={600}
+            sx={{ color: "white", filter: 'drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4))' }}>{puzzleEvent.displayDays}</Typography>
+        </Box>
+
         {puzzleEvent.location == 'OL' &&
-          <Box sx={{ position: "absolute", top: 0, right: 2 }}>
-            <WifiIcon sx={{ fontSize: 36 }} />
+          <Box sx={{ position: "absolute", top: 0, right: 1 }}>
+            <WifiIcon sx={{ fontSize: 33 }} />
           </Box>
         }
 
@@ -67,19 +79,26 @@ export function EventCard({ puzzleEvent }: ECProps) {
           <Box component="img" src="/calendar/resource/soldout.png" sx={{ position: "absolute", bottom: 10, right: 10, width: '50%' }} />
         }
 
-        <Box sx={{ position: "absolute", top: 2, left: 5 }}>
-          <Typography sx={{ color: "white" }} fontFamily={'League Spartan'} fontSize={'1.3em'} fontWeight={600}>{puzzleEvent.displayDays}</Typography>
-        </Box>
+        {puzzleEvent.leftName &&
+          <Box sx={{ position: "absolute", bottom: 0, left: 4 }}>
+            <Typography fontFamily={'League Spartan'} fontSize={'1.5em'} fontWeight={600}
+              sx={{ color: "white", filter: 'drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4))' }}>{puzzleEvent.leftName}</Typography>
+          </Box>
+        }
 
-        <CardMedia
+        {puzzleEvent.rightName &&
+          <Box sx={{ position: "absolute", bottom: 0, right: 5 }}>
+            <Typography fontFamily={'League Spartan'} fontSize={'1.5em'} fontWeight={600}
+              sx={{ color: "white", filter: 'drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4))' }}>{puzzleEvent.rightName}</Typography>
+          </Box>
+        }
+
+        <CardMedia sx={{ paddingTop: '10px' }}
           component="img"
           image={"/calendar/" + puzzleEvent.organiser + ".png"}
         />
 
       </CardActionArea >
-      <CardContent sx={{ padding: 0 }}>
-        <Typography fontSize={{ xs: '0.9em', md: '1em' }} fontWeight={800}>{puzzleEvent.name}</Typography>
-      </CardContent>
       <CardActions disableSpacing sx={{ p: 0 }}>
         {puzzleEvent.url ? (<IconButton sx={{ p: '5px' }} component="a" href={puzzleEvent.url} target="_blank" ><InfoIcon /></IconButton>) : <></>}
         {puzzleEvent.ticketUrl ? (<IconButton sx={{ p: '5px' }} component="a" href={puzzleEvent.ticketUrl} target="_blank" ><ConfirmationNumberIcon /></IconButton>) : <></>}
@@ -87,25 +106,24 @@ export function EventCard({ puzzleEvent }: ECProps) {
         {puzzleEvent.streamUrl ? (<IconButton sx={{ p: '5px' }} component="a" href={puzzleEvent.streamUrl} target="_blank" ><LiveTvIcon /></IconButton>) : <></>}
         {puzzleEvent.mapUrl ? (<IconButton sx={{ p: '5px' }} component="a" href={puzzleEvent.mapUrl} target="_blank" ><LocationPinIcon /></IconButton>) : <></>}
 
-        {puzzleEvent.info || puzzleEvent.locationDesc ? (
-          <ExpandMore
-            expand={expanded}
-            onClick={handleExpandClick}
-            aria-expanded={expanded}
-            sx={{ p: '5px' }}
-          >
-            <ExpandMoreIcon />
-          </ExpandMore>
-        ) : <></>}
+        <ExpandMore
+          expand={expanded}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          sx={{ p: '3px' }}
+        >
+          <ExpandMoreIcon />
+        </ExpandMore>
       </CardActions>
 
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent sx={{ p: 1 }}>
+        <CardContentNoPadding>
+          <Typography fontWeight={800}>{puzzleEvent.name}</Typography>
+
           {puzzleEvent.locationDesc && <Typography>{puzzleEvent.locationDesc}</Typography>}
           {puzzleEvent.info && <Typography>{puzzleEvent.info}</Typography>}
-        </CardContent>
+        </CardContentNoPadding>
       </Collapse>
-
-    </Card >
+    </Card>
   );
 }

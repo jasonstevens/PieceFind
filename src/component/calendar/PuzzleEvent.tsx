@@ -5,6 +5,9 @@ export interface PuzzleEvent {
   fullName?: string;
   organiser: string;
 
+  leftName?: string;
+  rightName?: string;
+
 
   day: number;
   month: number;
@@ -61,19 +64,19 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: "EUR", day: 30, month: 11, displayDays: "30th", name: 'Aschheim Marathon', organiser: 'generic', locationDesc: "Munchen, Deutchland", host: "wjpf", eventDate: '2025-11',
+    location: "EU", day: 30, month: 11, displayDays: "30th", name: 'Aschheim Marathon', rightName: 'Aschheim', organiser: 'generic', locationDesc: "Munchen, Deutchland", host: "wjpf", eventDate: '2025-11',
     url: 'https://puzzleverein.de/event.php?id=4',
     latitude: 48.172308466621544, longitude: 11.715970488180144, mapName: 'Aschheim Marathon', mapOffset: true, multiLine: true
   },
 
   {
-    location: "AM", day: 18, month: 10, displayDays: "18th - 19th", name: 'Brazil Nationals', organiser: 'generic', locationDesc: "Sao Paolo, Brazil", host: "wjpf", eventDate: '2025-10',
+    location: "AM", day: 18, month: 10, displayDays: "18th & 19th", name: 'Brazil Nationals', rightName: 'Brazil', organiser: 'generic', locationDesc: "Sao Paolo, Brazil", host: "wjpf", eventDate: '2025-10',
     url: 'https://worldjigsawpuzzle.org/abqc/2025/register', ticketUrl: 'https://worldjigsawpuzzle.org/abqc/2025/register',
-    latitude: -23.539916463993016, longitude: -46.64488067582398, mapName: 'Brazil Nationals', mapOffset: true, multiLine: true
+    latitude: -23.539916463993016, longitude: -46.64488067582398, mapName: 'Brazilian Nationals', mapOffset: true, multiLine: true
   },
 
   {
-    location: "AM", day: 31, month: 1, displayDays: "31st - 1st", name: 'Colombia Nationals', organiser: 'generic', locationDesc: "Bogota, Colombia", host: "wjpf", eventDate: '2026-01',
+    location: "AM", day: 31, month: 1, displayDays: "31st & 1st", name: 'Colombia Nationals', rightName: 'Colombia', organiser: 'generic', locationDesc: "Bogota, Colombia", host: "wjpf", eventDate: '2026-01',
     url: 'https://www.rompecabezascolombia.com.co/v-campeonato',
     latitude: 4.598242267014361, longitude: -74.07604010473753, mapName: 'Colombia Nationals'
   },
@@ -85,86 +88,86 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: "EUR", day: 18, month: 10, displayDays: "18th - 19th", name: 'Luxembourg Nationals', organiser: 'generic', locationDesc: "Luxembourg", host: "wjpf", eventDate: '2025-10',
+    location: "EU", day: 18, month: 10, displayDays: "18th - 19th", name: 'Luxembourg Nationals', rightName: 'Luxembourg', organiser: 'generic', locationDesc: "Luxembourg", host: "wjpf", eventDate: '2025-10',
     url: 'http://puzzle.lu/',
     latitude: 49.76343146465424, longitude: 5.852991782087342, mapName: 'Luxembourg Nationals'
   },
 
   {
-    location: "OL", day: 12, month: 10, displayDays: "12th", time: "4pm", name: 'Puzzle Guzzle #17', organiser: 'puzzleguzzle', locationDesc: "", host: "ukjpa", eventDate: '2025-10',
+    location: "OL", day: 12, month: 10, displayDays: "12th", time: "4pm", rightName: "#17", name: 'Puzzle Guzzle #17', organiser: 'puzzleguzzle', locationDesc: "", host: "ukjpa", eventDate: '2025-10',
     url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-17-individual-event-12-10-25-4pm', soldOut: true
   },
   {
-    location: "OL", day: 23, month: 10, displayDays: "12th", time: "4pm", name: 'Puzzle Guzzle #18', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-10',
+    location: "OL", day: 23, month: 10, displayDays: "12th", time: "4pm", rightName: "#18", name: 'Puzzle Guzzle #18', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-10',
     url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-18-individual-event-23-10-25-7pm'
   },
   {
-    location: "OL", day: 2, month: 11, displayDays: "2nd", time: "2pm", name: 'Puzzle Guzzle #19', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-11',
+    location: "OL", day: 2, month: 11, displayDays: "2nd", time: "2pm", rightName: "#19", name: 'Puzzle Guzzle #19', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-11',
     url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-19-pairs-event-02-11-25-2pm'
   },
   {
-    location: "OL", day: 9, month: 11, displayDays: "9th", time: "10:30pm", name: 'Puzzle Guzzle #20', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-11',
+    location: "OL", day: 9, month: 11, displayDays: "9th", time: "10:30pm", rightName: "#20", name: 'Puzzle Guzzle #20', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-11',
     url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-20-individual-event-09-11-25-10-30am'
   },
 
   {
-    location: "OL", day: 19, month: 10, displayDays: "19th", name: 'Euro Jigsaw Jam #96', organiser: 'ejj', host: "ejj", eventDate: '2025-10',
+    location: "OL", day: 19, month: 10, displayDays: "19th", leftName: "#96", name: 'Euro Jigsaw Jam #96', organiser: 'ejj', host: "ejj", eventDate: '2025-10',
     url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true
   },
   {
-    location: "OL", day: 22, month: 10, displayDays: "22nd", name: 'Euro Jigsaw Jam #97', organiser: 'ejj', host: "ejj", eventDate: '2025-10',
+    location: "OL", day: 22, month: 10, displayDays: "22nd", leftName: "#97", name: 'Euro Jigsaw Jam #97', organiser: 'ejj', host: "ejj", eventDate: '2025-10',
     url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true
   },
   {
-    location: "OL", day: 29, month: 10, displayDays: "29th", name: 'Euro Jigsaw Jam #99', organiser: 'ejj', host: "ejj", eventDate: '2025-10',
+    location: "OL", day: 29, month: 10, displayDays: "29th", leftName: "#99", name: 'Euro Jigsaw Jam #99', organiser: 'ejj', host: "ejj", eventDate: '2025-10',
     url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true
   },
   {
-    location: "OL", day: 6, month: 11, displayDays: "6th", name: 'Euro Jigsaw Jam #100', organiser: 'ejj', host: "ejj", eventDate: '2025-11',
+    location: "OL", day: 6, month: 11, displayDays: "6th", leftName: "#100", name: 'Euro Jigsaw Jam #100', organiser: 'ejj', host: "ejj", eventDate: '2025-11',
     url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true
   },
 
   {
-    location: "AU", displayDays: "19th", day: 19, month: 10, name: 'ACT Championship', organiser: 'ajpa', locationDesc: "Canberra, ACT", host: "AJPA", eventDate: '2025-10', url: 'https://australianjigsawpuzzle.org.au/', ticketUrl: 'act-jigsaw-2025.eventbrite.com.au',
+    location: "AU", displayDays: "19th", day: 19, month: 10, name: 'ACT State Championship', rightName: 'ACT', organiser: 'ajpa', locationDesc: "Canberra, ACT", host: "AJPA", eventDate: '2025-10', url: 'https://australianjigsawpuzzle.org.au/', ticketUrl: 'act-jigsaw-2025.eventbrite.com.au',
     latitude: -35.231890583245246, longitude: 149.14536062381032, mapName: 'ACT Championship'
   },
   {
-    location: "AU", displayDays: "29th, 30th", day: 29, month: 11, name: 'Australian Nationals', organiser: 'ajpa', locationDesc: "Canberra, ACT", host: "AJPA", eventDate: '2025-11', url: 'https://australianjigsawpuzzle.org.au/', ticketUrl: 'https://www.eventbrite.com.au/e/australian-national-jigsaw-puzzle-championships-2025-tickets-1387948975749',
+    location: "AU", displayDays: "29th, 30th", day: 29, month: 11, name: 'Australian Nationals', rightName: "Australia", organiser: 'ajpa', locationDesc: "Canberra, ACT", host: "AJPA", eventDate: '2025-11', url: 'https://australianjigsawpuzzle.org.au/', ticketUrl: 'https://www.eventbrite.com.au/e/australian-national-jigsaw-puzzle-championships-2025-tickets-1387948975749',
     latitude: -37.843405800617425, longitude: 144.96203685571132, mapName: "Australian Nationals"
   },
 
   {
-    location: 'EU', eventDate: '2026-03', day: 28, month: 3, displayDays: "28th, 29th", name: "Germany 2026", organiser: 'germany', locationDesc: "Pforzheim, Germany",
+    location: 'EU', eventDate: '2026-03', day: 28, month: 3, displayDays: "28th & 29th", name: "Deutsche Puzzlemeisterschaft 2026", organiser: 'germany', locationDesc: "Pforzheim, Germany",
     url: 'https://puzzleverein.de/event.php?id=7',
     mapName: 'German Nationals', latitude: 48.892080609340255, longitude: 8.692046064120937
   },
 
   {
-    location: 'EU', eventDate: '2026-03', day: 21, month: 3, displayDays: "21st, 22nd", name: "Belgium 2026", organiser: 'belgium', locationDesc: "GC De Roosenberg, Belgium",
+    location: 'EU', eventDate: '2026-03', day: 21, month: 3, displayDays: "21st & 22nd", name: "Belgian Jigsaw Puzzle Championship 2026", organiser: 'belgium', locationDesc: "GC De Roosenberg",
     url: 'https://www.speedpuzzling.be/event/belgian-jigsaw-puzzle-championship-2026-23/register',
     mapName: 'Belgian Nationals', latitude: 50.82352037460061, longitude: 4.657874346808696, mapOffset: true, multiLine: true
   },
 
   {
-    location: 'EU', eventDate: '2026-03', day: 14, month: 3, displayDays: "14th, 15th", name: "Sweden 2026", organiser: 'sweden', locationDesc: "Partille, Sweden",
+    location: 'EU', eventDate: '2026-03', day: 14, month: 3, displayDays: "14th & 15th", name: "Sweden 2026", organiser: 'sweden', locationDesc: "Partille, Sweden",
     url: 'https://www.svenskapusselforbundet.se/pussel-sm-2026/',
     mapName: 'Swedish Nationals', latitude: 57.74025058265133, longitude: 12.117314733729872
   },
 
   {
-    location: 'EU', eventDate: '2026-02', day: 28, month: 2, displayDays: "28th, 1st", name: "Denmark 2026", fullName: "DM i speedpuzzling ’26", organiser: 'denmark', locationDesc: "Ørbvej, Denmark",
+    location: 'EU', eventDate: '2026-02', day: 28, month: 2, displayDays: "28th & 1st", name: "Denmark 2026", fullName: "DM i speedpuzzling ’26", organiser: 'denmark', locationDesc: "Ørbvej, Denmark",
     url: 'https://danskpuslespilsforening.dk/dm-i-speedpuzzling/',
     mapName: 'Danish Nationals', latitude: 55.370968837543636, longitude: 10.450585478061193,
   },
 
   {
-    location: 'AM', eventDate: '2026-03', day: 27, month: 3, displayDays: "27th - 29th", name: "USA 2026", fullName: "2026 USA Jigsaw Nationals", organiser: 'usa', locationDesc: "Atlanta, Georgia, USA",
+    location: 'AM', eventDate: '2026-03', day: 27, month: 3, displayDays: "27th - 29th", name: "US Nationals 2026", fullName: "2026 USA Jigsaw Nationals", organiser: 'usajpa', locationDesc: "Atlanta, Georgia, USA",
     url: 'https://www.usajigsaw.org/2026-nationals',
     mapName: 'USA Nationals', latitude: 33.76044940500072, longitude: -84.3882822743022
   },
 
   {
-    location: 'EU', eventDate: '2026-04', day: 18, month: 4, displayDays: "18th - 19th", name: "Finland 2026", organiser: 'finland', locationDesc: "Atlanta, Georgia, USA",
+    location: 'EU', eventDate: '2026-04', day: 18, month: 4, displayDays: "18th & 19th", name: "Finland 2026", organiser: 'finland', locationDesc: "Atlanta, Georgia, USA",
     url: 'https://www.usajigsaw.org/2026-nationals',
     mapName: 'Finnish Nationals', latitude: 60.20362124610655, longitude: 24.659977636826962
   }
