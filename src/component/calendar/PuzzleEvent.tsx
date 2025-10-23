@@ -50,15 +50,13 @@ export const eventsList: PuzzleEvent[] = [
     latitude: 53.84026951006154, longitude: -1.7003488275568006, mapName: 'UK Nationals'
   },
 
-  { location: "OL", day: 15, month: 10, displayDays: "15th", name: 'World Series #1', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-10', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
   { location: "OL", day: 26, month: 10, displayDays: "26th", name: 'World Series #2', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-10', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
   { location: "OL", day: 5, month: 11, displayDays: "5th", name: 'World Series #3', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-11', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
   { location: "OL", day: 16, month: 11, displayDays: "16th", name: 'World Series #4', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-11', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
   { location: "OL", day: 26, month: 11, displayDays: "26th", name: 'World Series #5', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-11', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
 
-
   {
-    location: "UK", day: 30, month: 11, displayDays: "30th", name: 'Lytham Marathon', organiser: 'kobold', locationDesc: "Lytham, Lancashire", host: "koboldskettle", eventDate: '2025-11',
+    location: "UK", day: 30, month: 11, displayDays: "30th", name: 'Kobold\'s Kettle Marathon', organiser: 'kobold', locationDesc: "Lytham, Lancashire", host: "koboldskettle", eventDate: '2025 - 11',
     url: 'https://thekoboldskettle.co.uk/', ticketUrl: "https://thekoboldskettle.co.uk/all-events/?event=2263",
     latitude: 53.73715882150867, longitude: -2.964154098052793, mapName: 'Lytham Marathon', mapOffset: true, multiLine: true
   },
@@ -94,30 +92,20 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: "OL", day: 12, month: 10, displayDays: "12th", time: "4pm", rightName: "#17", name: 'Puzzle Guzzle #17', organiser: 'puzzleguzzle', locationDesc: "", host: "ukjpa", eventDate: '2025-10',
-    url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-17-individual-event-12-10-25-4pm', soldOut: true
-  },
-  {
-    location: "OL", day: 23, month: 10, displayDays: "12th", time: "4pm", rightName: "#18", name: 'Puzzle Guzzle #18', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-10',
-    url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-18-individual-event-23-10-25-7pm'
-  },
-  {
     location: "OL", day: 2, month: 11, displayDays: "2nd", time: "2pm", rightName: "#19", name: 'Puzzle Guzzle #19', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-11',
     url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-19-pairs-event-02-11-25-2pm'
   },
   {
     location: "OL", day: 9, month: 11, displayDays: "9th", time: "10:30pm", rightName: "#20", name: 'Puzzle Guzzle #20', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-11',
-    url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-20-individual-event-09-11-25-10-30am'
+    url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-20-individual-event-09-11-25-10-30am',
+    soldOut: true
   },
 
-  {
-    location: "OL", day: 19, month: 10, displayDays: "19th", leftName: "#96", name: 'Euro Jigsaw Jam #96', organiser: 'ejj', host: "ejj", eventDate: '2025-10',
-    url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true
-  },
-  {
-    location: "OL", day: 22, month: 10, displayDays: "22nd", leftName: "#97", name: 'Euro Jigsaw Jam #97', organiser: 'ejj', host: "ejj", eventDate: '2025-10',
-    url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true
-  },
+  { location: "OL", day: 25, month: 11, displayDays: "25th", time: "10:30pm", name: 'Puzzle Guzzle #21', rightName: '#21', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-11', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-21-individual-event-25-11-25-7pm' },
+  { location: "OL", day: 2, month: 12, displayDays: "2nd", time: "10:30pm", name: 'Puzzle Guzzle #22', rightName: '#22', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-12', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-22-individual-event-pick-your-poison-02-12-25-7pm' },
+  { location: "OL", day: 14, month: 12, displayDays: "9th", time: "2:00pm", name: 'Puzzle Guzzle #23', rightName: '#23', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-12', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-15-1000-pieces-14-12-25-2pm' },
+  { location: "OL", day: 30, month: 12, displayDays: "30th", time: "10:30pm", name: 'Puzzle Guzzle #24', rightName: '#24', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-12', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-24-individual-event-30-12-25-7pm' },
+
   {
     location: "OL", day: 29, month: 10, displayDays: "29th", leftName: "#99", name: 'Euro Jigsaw Jam #99', organiser: 'ejj', host: "ejj", eventDate: '2025-10',
     url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true
@@ -138,7 +126,7 @@ export const eventsList: PuzzleEvent[] = [
 
   {
     location: 'EU', eventDate: '2026-03', day: 28, month: 3, displayDays: "28th & 29th", name: "Deutsche Puzzlemeisterschaft 2026", organiser: 'germany', locationDesc: "Pforzheim, Germany",
-    url: 'https://puzzleverein.de/event.php?id=7',
+    url: 'https://puzzleverein.de/event.php?id=7', rightName: 'Germany',
     mapName: 'German Nationals', latitude: 48.892080609340255, longitude: 8.692046064120937
   },
 
@@ -149,14 +137,14 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: 'EU', eventDate: '2026-03', day: 14, month: 3, displayDays: "14th & 15th", name: "Sweden 2026", organiser: 'sweden', locationDesc: "Partille, Sweden",
+    location: 'EU', eventDate: '2026-03', day: 14, month: 3, displayDays: "14th & 15th", name: "Pussel-SM 2026", rightName: 'Sweden', organiser: 'sweden', locationDesc: "Partille, Sweden",
     url: 'https://www.svenskapusselforbundet.se/pussel-sm-2026/',
     mapName: 'Swedish Nationals', latitude: 57.74025058265133, longitude: 12.117314733729872
   },
 
   {
     location: 'EU', eventDate: '2026-02', day: 28, month: 2, displayDays: "28th & 1st", name: "Denmark 2026", fullName: "DM i speedpuzzling ’26", organiser: 'denmark', locationDesc: "Ørbvej, Denmark",
-    url: 'https://danskpuslespilsforening.dk/dm-i-speedpuzzling/',
+    url: 'https://danskpuslespilsforening.dk/dm-i-speedpuzzling/', rightName: "Denmark",
     mapName: 'Danish Nationals', latitude: 55.370968837543636, longitude: 10.450585478061193,
   },
 
@@ -167,8 +155,8 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: 'EU', eventDate: '2026-04', day: 18, month: 4, displayDays: "18th & 19th", name: "Finland 2026", organiser: 'finland', locationDesc: "Atlanta, Georgia, USA",
-    url: 'https://www.usajigsaw.org/2026-nationals',
+    location: 'EU', eventDate: '2026-04', day: 18, month: 4, displayDays: "18th & 19th", name: "Finland 2026", rightName: "Finland", organiser: 'finland', locationDesc: "Finland",
+    url: '',
     mapName: 'Finnish Nationals', latitude: 60.20362124610655, longitude: 24.659977636826962
   }
 
