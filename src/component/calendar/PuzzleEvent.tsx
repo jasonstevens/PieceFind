@@ -40,7 +40,7 @@ export interface PuzzleEvent {
 
 export const eventsList: PuzzleEvent[] = [
   {
-    location: "UK", day: 22, month: 10, displayDays: "22nd", name: 'Championship: Cardiff', organiser: 'ukjpa-cardiff', locationDesc: "Cardiff, Wales, UK", host: "ukjpa", eventDate: '2026-02',
+    location: "UK", day: 22, month: 2, displayDays: "22nd", name: 'Championship: Cardiff', organiser: 'ukjpa-cardiff', locationDesc: "Cardiff, Wales, UK", host: "ukjpa", eventDate: '2026-02',
     url: 'https://ukjpa.org/cardiff2026/', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91587', mapUrl: 'https://maps.app.goo.gl/be62nMEtoenA7Lnv5',
     latitude: 51.471149385793254, longitude: -3.20049132912831, mapName: 'Cardiff'
   },
@@ -50,8 +50,6 @@ export const eventsList: PuzzleEvent[] = [
     latitude: 53.84026951006154, longitude: -1.7003488275568006, mapName: 'UK Nationals'
   },
 
-  { location: "OL", day: 26, month: 10, displayDays: "26th", name: 'World Series #2', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-10', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
-  { location: "OL", day: 5, month: 11, displayDays: "5th", name: 'World Series #3', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-11', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
   { location: "OL", day: 16, month: 11, displayDays: "16th", name: 'World Series #4', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-11', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
   { location: "OL", day: 26, month: 11, displayDays: "26th", name: 'World Series #5', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-11', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
 
@@ -68,12 +66,6 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: "AM", day: 18, month: 10, displayDays: "18th & 19th", name: 'Brazil Nationals', rightName: 'Brazil', organiser: 'generic', locationDesc: "Sao Paolo, Brazil", host: "wjpf", eventDate: '2025-10',
-    url: 'https://worldjigsawpuzzle.org/abqc/2025/register', ticketUrl: 'https://worldjigsawpuzzle.org/abqc/2025/register',
-    latitude: -23.539916463993016, longitude: -46.64488067582398, mapName: 'Brazilian Nationals', mapOffset: true, multiLine: true
-  },
-
-  {
     location: "AM", day: 31, month: 1, displayDays: "31st & 1st", name: 'Colombia Nationals', rightName: 'Colombia', organiser: 'generic', locationDesc: "Bogota, Colombia", host: "wjpf", eventDate: '2026-01',
     url: 'https://www.rompecabezascolombia.com.co/v-campeonato',
     latitude: 4.598242267014361, longitude: -74.07604010473753, mapName: 'Colombia Nationals'
@@ -84,23 +76,6 @@ export const eventsList: PuzzleEvent[] = [
     url: 'https://www.canadianjpa.ca/activities/puzzlewave',
     latitude: 44.007325939298276, longitude: -79.40676705862401, mapName: 'Puzzle Wave 24hr'
   },
-
-  {
-    location: "EU", day: 18, month: 10, displayDays: "18th - 19th", name: 'Luxembourg Nationals', rightName: 'Luxembourg', organiser: 'generic', locationDesc: "Luxembourg", host: "wjpf", eventDate: '2025-10',
-    url: 'http://puzzle.lu/',
-    latitude: 49.76343146465424, longitude: 5.852991782087342, mapName: 'Luxembourg Nationals'
-  },
-
-  {
-    location: "OL", day: 2, month: 11, displayDays: "2nd", time: "2pm", rightName: "#19", name: 'Puzzle Guzzle #19', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-11',
-    url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-19-pairs-event-02-11-25-2pm'
-  },
-  {
-    location: "OL", day: 9, month: 11, displayDays: "9th", time: "10:30pm", rightName: "#20", name: 'Puzzle Guzzle #20', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-11',
-    url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-20-individual-event-09-11-25-10-30am',
-    soldOut: true
-  },
-
   { location: "OL", day: 25, month: 11, displayDays: "25th", time: "10:30pm", name: 'Puzzle Guzzle #21', rightName: '#21', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-11', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-21-individual-event-25-11-25-7pm' },
   { location: "OL", day: 2, month: 12, displayDays: "2nd", time: "10:30pm", name: 'Puzzle Guzzle #22', rightName: '#22', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-12', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-22-individual-event-pick-your-poison-02-12-25-7pm' },
   { location: "OL", day: 14, month: 12, displayDays: "9th", time: "2:00pm", name: 'Puzzle Guzzle #23', rightName: '#23', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-12', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-15-1000-pieces-14-12-25-2pm' },
