@@ -52,12 +52,12 @@ export const eventsList: PuzzleEvent[] = [
 
   // { location: "OL", day: 26, month: 11, displayDays: "26th", name: 'World Series #5', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-11', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
 
-  { location: "OL", day: 14, month: 12, displayDays: "9th", time: "2:00pm", name: 'Puzzle Guzzle #23', rightName: '#23', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-12', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-15-1000-pieces-14-12-25-2pm' },
   { location: "OL", day: 30, month: 12, displayDays: "30th", time: "10:30pm", name: 'Puzzle Guzzle #24', rightName: '#24', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-12', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-24-individual-event-30-12-25-7pm' },
 
   { location: "OL", day: 6, month: 12, displayDays: "6th", time: "10:30am", name: 'Puzzle Guzzle #25', rightName: '#25', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-01', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-25-individual-event-06-01-26-7pm' },
   { location: "OL", day: 16, month: 12, displayDays: "16th", time: "7:00pm", name: 'Puzzle Guzzle #26', rightName: '#26', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-01', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-26-individual-event-16-01-26-7pm' },
   { location: "OL", day: 25, month: 12, displayDays: "25th", time: "10:30am", name: 'Puzzle Guzzle #27', rightName: '#27', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-01', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-27-pairs-event-25-01-26-1030am' },
+  { location: "OL", day: 21, month: 12, displayDays: "21st", name: 'UKJPA Christmas', organiser: 'ukjpa-christmas', locationDesc: "", host: "ukjpa", eventDate: '2025-12', url: '/', ticketUrl: 'https://www.trybooking.com/uk/FNCO' },
 
 
   // {
@@ -109,6 +109,12 @@ export const eventsList: PuzzleEvent[] = [
     url: 'https://www.canadianjpa.ca/nationals26',
     mapName: 'Canadian Nationals', latitude: 43.65087944123792, longitude: -79.89883333128788
   },
+
+  {
+    location: 'AM', eventDate: '2025-12', day: 12, month: 12, displayDays: "12th - 13th", name: "Chinese Nationals 2025", rightName: "China", fullName: "2025 Chinese Nationals", organiser: 'china', locationDesc: "Shanghai",
+    url: 'https://worldjigsawpuzzle.org/china?cat=',
+  },
+
 
   {
     location: 'EU', eventDate: '2026-04', day: 18, month: 4, displayDays: "18th & 19th", name: "Finland 2026", rightName: "Finland", organiser: 'finland', locationDesc: "Finland",
