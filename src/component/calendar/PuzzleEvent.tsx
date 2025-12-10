@@ -105,6 +105,12 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
+    location: 'AM', eventDate: '2026-05', day: 29, month: 5, displayDays: "29th - 31st", name: "Canadian Nationals 2026", fullName: "2026 Canadian Nationals", organiser: 'canada', locationDesc: "Georgetown, Ontario",
+    url: 'https://www.canadianjpa.ca/nationals26',
+    mapName: 'Canadian Nationals', latitude: 43.65087944123792, longitude: -79.89883333128788
+  },
+
+  {
     location: 'EU', eventDate: '2026-04', day: 18, month: 4, displayDays: "18th & 19th", name: "Finland 2026", rightName: "Finland", organiser: 'finland', locationDesc: "Finland",
     url: 'https://palapeliurheiluliitto.fi/en',
     mapName: 'Finnish Nationals', latitude: 60.20362124610655, longitude: 24.659977636826962
@@ -127,13 +133,7 @@ export const eventsList: PuzzleEvent[] = [
   Polish - 8-9.08.2026
     https://www.instagram.com/pspuzzlowe/?hl=en
   
-
-  Switzerland 10&11 October 2026
-    https://schweizerpuzzlemeisterschaft.ch/
-    -- Opportunity
-
-    schweizer
-    
+  
   Czechia June 2026, most likely
   13-14
   
