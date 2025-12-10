@@ -19,6 +19,8 @@ import Collapse from '@mui/material/Collapse';
 import { type PuzzleEvent } from './PuzzleEvent';
 import { Box } from '@mui/material';
 
+const textShadow = 'drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.9))';
+
 interface ECProps {
   puzzleEvent: PuzzleEvent;
 }
@@ -66,7 +68,7 @@ export function EventCard({ puzzleEvent }: ECProps) {
       <CardActionArea component="a" href={puzzleEvent.url} target="_blank" >
         <Box sx={{ position: "absolute", top: 0, left: 4 }}>
           <Typography fontFamily={'League Spartan'} fontSize={'1.3em'} fontWeight={600}
-            sx={{ color: "white", filter: 'drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4))' }}>{puzzleEvent.displayDays}</Typography>
+            sx={{ color: "white", filter: textShadow }}>{puzzleEvent.displayDays}</Typography>
         </Box>
 
         {puzzleEvent.location == 'OL' &&
@@ -82,14 +84,14 @@ export function EventCard({ puzzleEvent }: ECProps) {
         {puzzleEvent.leftName &&
           <Box sx={{ position: "absolute", bottom: 0, left: 4 }}>
             <Typography fontFamily={'League Spartan'} fontSize={'1.5em'} fontWeight={600}
-              sx={{ color: "white", filter: 'drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4))' }}>{puzzleEvent.leftName}</Typography>
+              sx={{ color: "white", filter: textShadow }}>{puzzleEvent.leftName}</Typography>
           </Box>
         }
 
         {puzzleEvent.rightName &&
           <Box sx={{ position: "absolute", bottom: 0, right: 5 }}>
             <Typography fontFamily={'League Spartan'} fontSize={'1.5em'} fontWeight={600}
-              sx={{ color: "white", filter: 'drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4))' }}>{puzzleEvent.rightName}</Typography>
+              sx={{ color: "white", filter: textShadow }}>{puzzleEvent.rightName}</Typography>
           </Box>
         }
 

@@ -50,54 +50,29 @@ export const eventsList: PuzzleEvent[] = [
     latitude: 53.84026951006154, longitude: -1.7003488275568006, mapName: 'UK Nationals'
   },
 
-  { location: "OL", day: 16, month: 11, displayDays: "16th", name: 'World Series #4', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-11', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
-  { location: "OL", day: 26, month: 11, displayDays: "26th", name: 'World Series #5', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-11', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
+  // { location: "OL", day: 26, month: 11, displayDays: "26th", name: 'World Series #5', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-11', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
 
-  {
-    location: "UK", day: 30, month: 11, displayDays: "30th", name: 'Kobold\'s Kettle Marathon', organiser: 'kobold', locationDesc: "Lytham, Lancashire", host: "koboldskettle", eventDate: '2025 - 11',
-    url: 'https://thekoboldskettle.co.uk/', ticketUrl: "https://thekoboldskettle.co.uk/all-events/?event=2263",
-    latitude: 53.73715882150867, longitude: -2.964154098052793, mapName: 'Lytham Marathon', mapOffset: true, multiLine: true
-  },
-
-  {
-    location: "EU", day: 30, month: 11, displayDays: "30th", name: 'Aschheim Marathon', rightName: 'Aschheim', organiser: 'generic', locationDesc: "Munchen, Deutchland", host: "wjpf", eventDate: '2025-11',
-    url: 'https://puzzleverein.de/event.php?id=4',
-    latitude: 48.172308466621544, longitude: 11.715970488180144, mapName: 'Aschheim Marathon', mapOffset: true, multiLine: true
-  },
-
-  {
-    location: "AM", day: 31, month: 1, displayDays: "31st & 1st", name: 'Colombia Nationals', rightName: 'Colombia', organiser: 'generic', locationDesc: "Bogota, Colombia", host: "wjpf", eventDate: '2026-01',
-    url: 'https://www.rompecabezascolombia.com.co/v-campeonato',
-    latitude: 4.598242267014361, longitude: -74.07604010473753, mapName: 'Colombia Nationals'
-  },
-
-  {
-    location: "AM", day: 31, month: 3, displayDays: "28th - 29th", name: 'Puzzle Wave 24hr', organiser: 'generic', locationDesc: "Ontario, Canada", host: "wjpf", eventDate: '2026-03',
-    url: 'https://www.canadianjpa.ca/activities/puzzlewave',
-    latitude: 44.007325939298276, longitude: -79.40676705862401, mapName: 'Puzzle Wave 24hr'
-  },
-  { location: "OL", day: 25, month: 11, displayDays: "25th", time: "10:30pm", name: 'Puzzle Guzzle #21', rightName: '#21', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-11', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-21-individual-event-25-11-25-7pm' },
-  { location: "OL", day: 2, month: 12, displayDays: "2nd", time: "10:30pm", name: 'Puzzle Guzzle #22', rightName: '#22', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-12', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-22-individual-event-pick-your-poison-02-12-25-7pm' },
   { location: "OL", day: 14, month: 12, displayDays: "9th", time: "2:00pm", name: 'Puzzle Guzzle #23', rightName: '#23', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-12', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-15-1000-pieces-14-12-25-2pm' },
   { location: "OL", day: 30, month: 12, displayDays: "30th", time: "10:30pm", name: 'Puzzle Guzzle #24', rightName: '#24', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2025-12', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-24-individual-event-30-12-25-7pm' },
 
-  {
-    location: "OL", day: 29, month: 10, displayDays: "29th", leftName: "#99", name: 'Euro Jigsaw Jam #99', organiser: 'ejj', host: "ejj", eventDate: '2025-10',
-    url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true
-  },
-  {
-    location: "OL", day: 6, month: 11, displayDays: "6th", leftName: "#100", name: 'Euro Jigsaw Jam #100', organiser: 'ejj', host: "ejj", eventDate: '2025-11',
-    url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true
-  },
+  { location: "OL", day: 6, month: 12, displayDays: "6th", time: "10:30am", name: 'Puzzle Guzzle #25', rightName: '#25', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-01', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-25-individual-event-06-01-26-7pm' },
+  { location: "OL", day: 16, month: 12, displayDays: "16th", time: "7:00pm", name: 'Puzzle Guzzle #26', rightName: '#26', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-01', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-26-individual-event-16-01-26-7pm' },
+  { location: "OL", day: 25, month: 12, displayDays: "25th", time: "10:30am", name: 'Puzzle Guzzle #27', rightName: '#27', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-01', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-27-pairs-event-25-01-26-1030am' },
 
-  {
-    location: "AU", displayDays: "19th", day: 19, month: 10, name: 'ACT State Championship', rightName: 'ACT', organiser: 'ajpa', locationDesc: "Canberra, ACT", host: "AJPA", eventDate: '2025-10', url: 'https://australianjigsawpuzzle.org.au/', ticketUrl: 'act-jigsaw-2025.eventbrite.com.au',
-    latitude: -35.231890583245246, longitude: 149.14536062381032, mapName: 'ACT Championship'
-  },
-  {
-    location: "AU", displayDays: "29th, 30th", day: 29, month: 11, name: 'Australian Nationals', rightName: "Australia", organiser: 'ajpa', locationDesc: "Canberra, ACT", host: "AJPA", eventDate: '2025-11', url: 'https://australianjigsawpuzzle.org.au/', ticketUrl: 'https://www.eventbrite.com.au/e/australian-national-jigsaw-puzzle-championships-2025-tickets-1387948975749',
-    latitude: -37.843405800617425, longitude: 144.96203685571132, mapName: "Australian Nationals"
-  },
+
+  // {
+  //   location: "OL", day: 6, month: 11, displayDays: "6th", leftName: "#100", name: 'Euro Jigsaw Jam #100', organiser: 'ejj', host: "ejj", eventDate: '2025-11',
+  //   url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true
+  // },
+
+  // {
+  //   location: "AU", displayDays: "19th", day: 19, month: 10, name: 'ACT State Championship', rightName: 'ACT', organiser: 'ajpa', locationDesc: "Canberra, ACT", host: "AJPA", eventDate: '2025-10', url: 'https://australianjigsawpuzzle.org.au/', ticketUrl: 'act-jigsaw-2025.eventbrite.com.au',
+  //   latitude: -35.231890583245246, longitude: 149.14536062381032, mapName: 'ACT Championship'
+  // },
+  // {
+  //   location: "AU", displayDays: "29th, 30th", day: 29, month: 11, name: 'Australian Nationals', rightName: "Australia", organiser: 'ajpa', locationDesc: "Canberra, ACT", host: "AJPA", eventDate: '2025-11', url: 'https://australianjigsawpuzzle.org.au/', ticketUrl: 'https://www.eventbrite.com.au/e/australian-national-jigsaw-puzzle-championships-2025-tickets-1387948975749',
+  //   latitude: -37.843405800617425, longitude: 144.96203685571132, mapName: "Australian Nationals"
+  // },
 
   {
     location: 'EU', eventDate: '2026-03', day: 28, month: 3, displayDays: "28th & 29th", name: "Deutsche Puzzlemeisterschaft 2026", organiser: 'germany', locationDesc: "Pforzheim, Germany",
@@ -108,7 +83,7 @@ export const eventsList: PuzzleEvent[] = [
   {
     location: 'EU', eventDate: '2026-03', day: 21, month: 3, displayDays: "21st & 22nd", name: "Belgian Jigsaw Puzzle Championship 2026", organiser: 'belgium', locationDesc: "GC De Roosenberg",
     url: 'https://www.speedpuzzling.be/event/belgian-jigsaw-puzzle-championship-2026-23/register',
-    mapName: 'Belgian Nationals', latitude: 50.82352037460061, longitude: 4.657874346808696, mapOffset: true, multiLine: true
+    mapName: 'Belgian Nationals', latitude: 50.82352037460061, longitude: 4.657874346808696,
   },
 
   {
@@ -131,10 +106,21 @@ export const eventsList: PuzzleEvent[] = [
 
   {
     location: 'EU', eventDate: '2026-04', day: 18, month: 4, displayDays: "18th & 19th", name: "Finland 2026", rightName: "Finland", organiser: 'finland', locationDesc: "Finland",
-    url: '',
+    url: 'https://palapeliurheiluliitto.fi/en',
     mapName: 'Finnish Nationals', latitude: 60.20362124610655, longitude: 24.659977636826962
-  }
+  },
 
+  {
+    location: 'EU', eventDate: '2026-06', day: 6, month: 6, displayDays: "6th & 7th", name: "Netherlands 2026", organiser: 'netherlands', locationDesc: "Netherlands",
+    url: 'https://speedpuzzling.nl/en/',
+    mapName: 'Dutch Nationals', latitude: 52.11071155167927, longitude: 5.1741815825762
+  },
+
+  {
+    location: 'EU', eventDate: '2026-10', day: 10, month: 10, displayDays: "10th & 11th", name: "Switzerland 2026", rightName: "Switzerland", organiser: 'schweizer', locationDesc: "Switzerland",
+    url: 'https://www.schweizerpuzzlemeisterschaft.ch/spm-2026/terminplan-2026/',
+    mapName: 'Swiss Nationals', latitude: 47.503386227846434, longitude: 8.712182278923661
+  }
   /*
   Hungarian National Championship will take place on 18-19 April 2026. // Not a
   
@@ -145,6 +131,8 @@ export const eventsList: PuzzleEvent[] = [
   Switzerland 10&11 October 2026
     https://schweizerpuzzlemeisterschaft.ch/
     -- Opportunity
+
+    schweizer
     
   Czechia June 2026, most likely
   13-14
