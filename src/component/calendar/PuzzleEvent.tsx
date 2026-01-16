@@ -20,6 +20,7 @@ export interface PuzzleEvent {
   locationDesc?: string;
   state?: string;
 
+  venueName?: string;
   url?: string;
   ticketUrl?: string;
   facebookUrl?: string;
@@ -52,10 +53,12 @@ export const eventsList: PuzzleEvent[] = [
 
   // { location: "OL", day: 26, month: 11, displayDays: "26th", name: 'World Series #5', organiser: 'ukjpa-ws', locationDesc: "", host: "ukjpa", eventDate: '2025-11', url: 'https://ukjpa.org/worldseries', ticketUrl: 'https://www.trybooking.com/uk/FKJN' },
 
-  { location: "OL", day: 6, month: 12, displayDays: "6th", time: "10:30am", name: 'Puzzle Guzzle #25', rightName: '#25', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-01', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-25-individual-event-06-01-26-7pm' },
-  { location: "OL", day: 16, month: 12, displayDays: "16th", time: "7:00pm", name: 'Puzzle Guzzle #26', rightName: '#26', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-01', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-26-individual-event-16-01-26-7pm' },
-  { location: "OL", day: 25, month: 12, displayDays: "25th", time: "10:30am", name: 'Puzzle Guzzle #27', rightName: '#27', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-01', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-27-pairs-event-25-01-26-1030am' },
+  { location: "OL", day: 25, month: 1, displayDays: "25th", time: "10:30am", name: 'Puzzle Guzzle #27', rightName: '#27', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-01', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-27-pairs-event-25-01-26-1030am', soldOut: true },
 
+  { location: "OL", day: 3, month: 2, displayDays: "3rd", time: "7:00pm", name: 'Puzzle Guzzle #28', rightName: '#28', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-02', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-28-individual-event-03-02-26-7pm' },
+  { location: "OL", day: 8, month: 2, displayDays: "8th", time: "10:30am", name: 'Puzzle Guzzle #29', rightName: '#29', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-02', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-29-individual-event-300-pieces-08-02-26-10-30am', soldOut: true },
+  { location: "OL", day: 27, month: 2, displayDays: "25th", time: "7:30am", name: 'Puzzle Guzzle #30', rightName: '#30', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-02', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-30-pairs-event-27-02-26-7pm-damaged-copy' },
+  { location: "OL", day: 1, month: 3, displayDays: "25th", time: "1:00pm", name: 'Puzzle Guzzle #31', rightName: '#31', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-31-individual-event-trialogy-01-03-26-9am', soldOut: true },
 
   // {
   //   location: "OL", day: 6, month: 11, displayDays: "6th", leftName: "#100", name: 'Euro Jigsaw Jam #100', organiser: 'ejj', host: "ejj", eventDate: '2025-11',
@@ -135,10 +138,37 @@ export const eventsList: PuzzleEvent[] = [
     location: 'EU', eventDate: '2026-05', day: 1, month: 5, displayDays: "1st & 2nd", name: "Speed Puzzle World Series 2026", organiser: 'spws', locationDesc: "Munich, Germany",
     url: 'https://speedpuzzle.com/',
     mapName: 'Speed Puzzle World Series', latitude: 48.123952562500264, longitude: 11.607029582394576
-  }
-  ,
+  },
+
+  {
+    location: 'EU', eventDate: '2026-04', day: 11, month: 4, displayDays: "4th", name: "Slovenia 2026", organiser: 'slovenia', locationDesc: "Novo Mesto, Slovenia", rightName: "Slovenia",
+    mapName: 'Slovenian Nationals', latitude: 45.794297551617156, longitude: 15.154642512934878
+  },
+
+  {
+    location: 'EU', eventDate: '2026-04', day: 18, month: 4, displayDays: "18th & 19th", name: "Hungary 2026", rightName: "Hungary", organiser: 'hungary', locationDesc: "Finland",
+    url: 'https://www.mopepuzzle.hu/event.php?id=8',
+    mapName: 'Hungarian Nationals', latitude: 47.25230039280502, longitude: 19.620625084620837
+  },
+
+  {
+    location: 'EU', eventDate: '2026-05', day: 30, month: 5, displayDays: "30th & 31st", name: "Nordic Championship 2026", rightName: "Nordic", organiser: 'nordic', locationDesc: "Køge, Denmark",
+    venueName: "Køge Nord Sportcenter",
+    mapName: 'Nordic Championship', latitude: 55.49456102642153, longitude: 12.173489144316234
+  },
+
+  {
+    location: 'EU', eventDate: '2026-05', day: 16, month: 5, displayDays: "16th & 17th", name: "Italy 2026", rightName: "Italy", organiser: 'italy', locationDesc: "Grassobbio, Italy",
+    mapName: 'Italian Nationals', latitude: 45.65656807424692, longitude: 9.721329510458649
+  },
+
+  {
+    location: 'EU', eventDate: '2026-04', day: 11, month: 4, displayDays: "11th & 12th", name: "Norway 2026", rightName: "Norway", organiser: 'norway', locationDesc: "Jessheim, Norway",
+    venueName: "Ev4 Arena",
+    mapName: 'Norwegian Nationals', latitude: 60.14900153361661, longitude: 11.186137338720107
+  },
+
   /*
-  Hungarian National Championship will take place on 18-19 April 2026. // Not a
   
   Polish - 8-9.08.2026
     https://www.instagram.com/pspuzzlowe/?hl=en
@@ -148,9 +178,7 @@ export const eventsList: PuzzleEvent[] = [
   13-14
   
   Portugal May, without days yet!
-  
-  Slovenia April, no dates yet A bit random but we have a date set now. 11.4.2026
-  
+    
   Norway That's norwegian championship 11.4.2026
   https://www.norgespuslespillforbund.no/
   */
