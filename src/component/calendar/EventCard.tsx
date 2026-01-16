@@ -89,18 +89,18 @@ export function EventCard({ puzzleEvent }: ECProps) {
         }
 
         {puzzleEvent.rightName &&
-          <Box sx={{ position: "absolute", bottom: 0, right: 5 }}>
+          <Box sx={{ position: "absolute", bottom: -5, right: 5 }}>
             <Typography fontFamily={'League Spartan'} fontSize={'1.5em'} fontWeight={600}
               sx={{ color: "white", filter: textShadow }}>{puzzleEvent.rightName}</Typography>
           </Box>
         }
 
-        <CardMedia sx={{ paddingTop: '10px' }}
+        <CardMedia sx={{ padding: '2px' }}
           component="img"
           image={"/calendar/" + puzzleEvent.organiser + ".png"}
         />
 
-      </CardActionArea >
+      </CardActionArea>
       <CardActions disableSpacing sx={{ p: 0 }}>
         {puzzleEvent.url ? (<IconButton sx={{ p: '5px' }} component="a" href={puzzleEvent.url} target="_blank" ><InfoIcon /></IconButton>) : <></>}
         {puzzleEvent.ticketUrl ? (<IconButton sx={{ p: '5px' }} component="a" href={puzzleEvent.ticketUrl} target="_blank" ><ConfirmationNumberIcon /></IconButton>) : <></>}
