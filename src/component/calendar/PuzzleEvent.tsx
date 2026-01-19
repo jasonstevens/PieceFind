@@ -47,7 +47,7 @@ export const eventsList: PuzzleEvent[] = [
   },
   {
     location: "UK", day: 18, month: 4, displayDays: "18th & 19th", name: 'UK Nationals 2026', organiser: 'ukjpa-nationals', locationDesc: "Bradford, Yorkshire", host: "ukjpa", eventDate: '2026-04',
-    url: 'https://ukjpa.org/nationals2026/', mapUrl: 'https://maps.app.goo.gl/rwNkK5dM8oJiQ8UZ9',
+    url: 'https://ukjpa.org/nationals2026/', mapUrl: 'https://maps.app.goo.gl/rwNkK5dM8oJiQ8UZ9', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91594',
     latitude: 53.84026951006154, longitude: -1.7003488275568006, mapName: 'UK Nationals'
   },
 
@@ -58,7 +58,7 @@ export const eventsList: PuzzleEvent[] = [
   { location: "OL", day: 3, month: 2, displayDays: "3rd", time: "7:00pm", name: 'Puzzle Guzzle #28', rightName: '#28', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-02', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-28-individual-event-03-02-26-7pm' },
   { location: "OL", day: 8, month: 2, displayDays: "8th", time: "10:30am", name: 'Puzzle Guzzle #29', rightName: '#29', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-02', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-29-individual-event-300-pieces-08-02-26-10-30am', soldOut: true },
   { location: "OL", day: 27, month: 2, displayDays: "25th", time: "7:30am", name: 'Puzzle Guzzle #30', rightName: '#30', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-02', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-30-pairs-event-27-02-26-7pm-damaged-copy' },
-  { location: "OL", day: 1, month: 3, displayDays: "25th", time: "1:00pm", name: 'Puzzle Guzzle #31', rightName: '#31', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-31-individual-event-trialogy-01-03-26-9am', soldOut: true },
+  { location: "OL", day: 1, month: 3, displayDays: "1st", time: "1:00pm", name: 'Puzzle Guzzle #31', rightName: '#31', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-31-individual-event-trialogy-01-03-26-9am', soldOut: true },
 
   // {
   //   location: "OL", day: 6, month: 11, displayDays: "6th", leftName: "#100", name: 'Euro Jigsaw Jam #100', organiser: 'ejj', host: "ejj", eventDate: '2025-11',
@@ -82,30 +82,30 @@ export const eventsList: PuzzleEvent[] = [
 
   {
     location: 'EU', eventDate: '2026-03', day: 21, month: 3, displayDays: "21st & 22nd", name: "Belgian Jigsaw Puzzle Championship 2026", organiser: 'belgium', locationDesc: "GC De Roosenberg",
-    url: 'https://www.speedpuzzling.be/event/belgian-jigsaw-puzzle-championship-2026-23/register',
+    url: 'https://www.speedpuzzling.be/event/belgian-jigsaw-puzzle-championship-2026-23/register', ticketUrl: 'https://worldjigsawpuzzle.org/speedpuzzlingbelgium/2026/register',
     mapName: 'Belgian Nationals', latitude: 50.82352037460061, longitude: 4.657874346808696,
   },
 
   {
     location: 'EU', eventDate: '2026-03', day: 14, month: 3, displayDays: "14th & 15th", name: "Pussel-SM 2026", rightName: 'Sweden', organiser: 'sweden', locationDesc: "Partille, Sweden",
-    url: 'https://www.svenskapusselforbundet.se/pussel-sm-2026/',
+    url: 'https://www.svenskapusselforbundet.se/pussel-sm-2026/', ticketUrl: 'https://worldjigsawpuzzle.org/svenskapusselforbundet/2026/register',
     mapName: 'Swedish Nationals', latitude: 57.74025058265133, longitude: 12.117314733729872
   },
 
   {
     location: 'EU', eventDate: '2026-02', day: 28, month: 2, displayDays: "28th & 1st", name: "Denmark 2026", fullName: "DM i speedpuzzling ’26", organiser: 'denmark', locationDesc: "Ørbvej, Denmark",
-    url: 'https://danskpuslespilsforening.dk/dm-i-speedpuzzling/', rightName: "Denmark",
+    url: 'https://danskpuslespilsforening.dk/dm-i-speedpuzzling/', rightName: "Denmark", ticketUrl: 'https://worldjigsawpuzzle.org/danskpuslespilsforening/2026/register',
     mapName: 'Danish Nationals', latitude: 55.370968837543636, longitude: 10.450585478061193,
   },
 
   {
     location: 'AM', eventDate: '2026-03', day: 27, month: 3, displayDays: "27th - 29th", name: "US Nationals 2026", fullName: "2026 USA Jigsaw Nationals", organiser: 'usajpa', locationDesc: "Atlanta, Georgia, USA",
-    url: 'https://www.usajigsaw.org/2026-nationals',
+    url: 'https://www.usajigsaw.org/2026-nationals', ticketUrl: 'https://www.tickettailor.com/events/usajigsawpuzzleassociation/1841501',
     mapName: 'USA Nationals', latitude: 33.76044940500072, longitude: -84.3882822743022
   },
 
   {
-    location: 'AM', eventDate: '2026-05', day: 29, month: 5, displayDays: "29th - 31st", name: "Canadian Nationals 2026", fullName: "2026 Canadian Nationals", organiser: 'canada', locationDesc: "Georgetown, Ontario",
+    location: 'AM', eventDate: '2026-05', day: 29, month: 5, displayDays: "29th - 31st", name: "Canadian Nationals 2026", fullName: "2026 Canadian Nationals", rightName: 'Canada', organiser: 'canada', locationDesc: "Georgetown, Ontario",
     url: 'https://www.canadianjpa.ca/nationals26',
     mapName: 'Canadian Nationals', latitude: 43.65087944123792, longitude: -79.89883333128788
   },
@@ -136,12 +136,13 @@ export const eventsList: PuzzleEvent[] = [
 
   {
     location: 'EU', eventDate: '2026-05', day: 1, month: 5, displayDays: "1st & 2nd", name: "Speed Puzzle World Series 2026", organiser: 'spws', locationDesc: "Munich, Germany",
-    url: 'https://speedpuzzle.com/',
+    url: 'https://speedpuzzle.com/', ticketUrl: 'https://buy.stripe.com/3cI8wI1Vg1zI7RPgf51kA0e',
     mapName: 'Speed Puzzle World Series', latitude: 48.123952562500264, longitude: 11.607029582394576
   },
 
   {
     location: 'EU', eventDate: '2026-04', day: 11, month: 4, displayDays: "4th", name: "Slovenia 2026", organiser: 'slovenia', locationDesc: "Novo Mesto, Slovenia", rightName: "Slovenia",
+    url: "https://drustvosestavljank.si/",
     mapName: 'Slovenian Nationals', latitude: 45.794297551617156, longitude: 15.154642512934878
   },
 
@@ -159,13 +160,27 @@ export const eventsList: PuzzleEvent[] = [
 
   {
     location: 'EU', eventDate: '2026-05', day: 16, month: 5, displayDays: "16th & 17th", name: "Italy 2026", rightName: "Italy", organiser: 'italy', locationDesc: "Grassobbio, Italy",
+    url: "https://www.associazioneitalianapuzzle.it/",
     mapName: 'Italian Nationals', latitude: 45.65656807424692, longitude: 9.721329510458649
   },
 
   {
     location: 'EU', eventDate: '2026-04', day: 11, month: 4, displayDays: "11th & 12th", name: "Norway 2026", rightName: "Norway", organiser: 'norway', locationDesc: "Jessheim, Norway",
-    venueName: "Ev4 Arena",
+    venueName: "Ev4 Arena", ticketUrl: 'https://arena360.no/Events/87156/11579',
     mapName: 'Norwegian Nationals', latitude: 60.14900153361661, longitude: 11.186137338720107
+  },
+
+  {
+    location: 'EU', eventDate: '2026-03', day: 7, month: 3, displayDays: "7th", name: "Ireland 2026", organiser: 'ireland', locationDesc: "Dublin, Ireland",
+    ticketUrl: 'https://www.eventbrite.com/e/ijpa-speed-puzzling-competition-tickets-1743816434899',
+    venueName: "ALSAA Sports Center, Toberbunny",
+    mapName: 'Irish Nationals', latitude: 53.42197374625566, longitude: -6.229056301215158
+  },
+
+  {
+    location: 'EU', eventDate: '2026-06', day: 28, month: 6, displayDays: "28th", name: "Austria 2026", rightName: 'Austria', organiser: 'austria', locationDesc: "Wiener Neudorf, Austria",
+    url: 'https://puzzleverein.at/2025/03/save-the-date-die-1.-%C3%B6sterreichische-meisterschaft-im-speedpuzzeln/',
+    mapName: 'Austrian Nationals', latitude: 48.085811006256776, longitude: 16.320303932840968
   },
 
   /*
