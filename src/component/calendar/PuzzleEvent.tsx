@@ -178,8 +178,8 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: 'EU', eventDate: '2026-06', day: 28, month: 6, displayDays: "28th", name: "Austria 2026", rightName: 'Austria', organiser: 'austria', locationDesc: "Wiener Neudorf, Austria",
-    url: 'https://puzzleverein.at/2025/03/save-the-date-die-1.-%C3%B6sterreichische-meisterschaft-im-speedpuzzeln/',
+    location: 'EU', eventDate: '2026-05', day: 2, month: 5, displayDays: "2nd & 3rd", name: "Austria 2026", rightName: 'Austria', organiser: 'austria', locationDesc: "Wiener Neudorf, Austria",
+    url: 'https://www.instagram.com/p/DQbQWPygs5D/',
     mapName: 'Austrian Nationals', latitude: 48.085811006256776, longitude: 16.320303932840968
   },
 
