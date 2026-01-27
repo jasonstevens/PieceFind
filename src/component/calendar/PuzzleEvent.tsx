@@ -150,7 +150,7 @@ export const eventsList: PuzzleEvent[] = [
 
   {
     location: 'EU', eventDate: '2026-05', day: 30, month: 5, displayDays: "30th & 31st", name: "Nordic Championship 2026", rightName: "Nordic", organiser: 'nordic', locationDesc: "Køge, Denmark",
-    venueName: "Køge Nord Sportcenter",
+    venueName: "Køge Nord Sportcenter", url: 'https://www.instagram.com/p/DTKqhpniP7-/',
     mapName: 'Nordic', latitude: 55.49456102642153, longitude: 12.173489144316234
   },
 
