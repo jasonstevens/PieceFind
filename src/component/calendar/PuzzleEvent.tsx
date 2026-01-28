@@ -205,7 +205,7 @@ export const eventsList: PuzzleEvent[] = [
 
 
   {
-    location: "AU", displayDays: "21st", day: 21, month: 3, name: 'Tasmania', rightName: 'Tasmania State', organiser: 'ajpa', venueName: 'Hobart City Hall', locationDesc: "Hobart, Tasmania", host: "AJPA",
+    location: "AU", displayDays: "21st", day: 21, month: 3, name: 'Tasmania', rightName: 'Tas State', organiser: 'ajpa', venueName: 'Hobart City Hall', locationDesc: "Hobart, Tasmania", host: "AJPA",
     eventDate: '2026-03', url: 'https://australianjigsawpuzzle.org.au/event-info/tas-2026/', ticketUrl: 'https://events.humanitix.com/tasmania-state-jigsaw-2026',
     latitude: -42.88259863806437, longitude: 147.33115824215065, mapName: 'Tasmania State', mapUrl: 'https://maps.app.goo.gl/i4mC4pXoQZ7zFAiv6',
   },
@@ -223,7 +223,7 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: "AU", displayDays: "11th", day: 11, month: 7, name: 'Queensland State Competition', rightName: 'Queensland State', organiser: 'ajpa', locationDesc: "Brisbane, Queensland", host: "AJPA",
+    location: "AU", displayDays: "11th", day: 11, month: 7, name: 'Queensland State Competition', rightName: 'QLD State', organiser: 'ajpa', locationDesc: "Brisbane, Queensland", host: "AJPA",
     eventDate: '2026-07', url: 'https://australianjigsawpuzzle.org.au/event-info/qld-2026/', mapUrl: 'https://maps.app.goo.gl/5QR992tzPWyvMGSh8', streamUrl: 'https://www.youtube.com/@AustralianJigsawPuzzle',
     latitude: -27.48131992783164, longitude: 153.01710958931915, mapName: 'Queensland State'
   },
