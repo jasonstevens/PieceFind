@@ -42,12 +42,12 @@ export interface PuzzleEvent {
 export const eventsList: PuzzleEvent[] = [
   {
     location: "UK", day: 22, month: 2, displayDays: "22nd", name: 'Championship: Cardiff', organiser: 'ukjpa-cardiff', locationDesc: "Cardiff, Wales, UK", host: "ukjpa", eventDate: '2026-02',
-    url: 'https://ukjpa.org/cardiff2026/', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91587', mapUrl: 'https://maps.app.goo.gl/be62nMEtoenA7Lnv5',
+    url: 'https://ukjpa.org/cardiff2026/', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91587', mapUrl: 'https://maps.app.goo.gl/be62nMEtoenA7Lnv5', streamUrl: 'https://www.youtube.com/@UKJPA/streams',
     latitude: 51.471149385793254, longitude: -3.20049132912831, mapName: 'Cardiff'
   },
   {
     location: "UK", day: 18, month: 4, displayDays: "18th & 19th", name: 'UK Nationals 2026', organiser: 'ukjpa-nationals', locationDesc: "Bradford, Yorkshire", host: "ukjpa", eventDate: '2026-04',
-    url: 'https://ukjpa.org/nationals2026/', mapUrl: 'https://maps.app.goo.gl/rwNkK5dM8oJiQ8UZ9', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91594',
+    url: 'https://ukjpa.org/nationals2026/', mapUrl: 'https://maps.app.goo.gl/rwNkK5dM8oJiQ8UZ9', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91594', streamUrl: 'https://www.youtube.com/@UKJPA/streams',
     latitude: 53.84026951006154, longitude: -1.7003488275568006, mapName: 'UK Nationals'
   },
 
@@ -73,18 +73,18 @@ export const eventsList: PuzzleEvent[] = [
   {
     location: 'EU', eventDate: '2026-03', day: 28, month: 3, displayDays: "28th & 29th", name: "Deutsche Puzzlemeisterschaft 2026", organiser: 'germany', locationDesc: "Pforzheim, Germany",
     url: 'https://puzzleverein.de/event.php?id=7', rightName: 'Germany',
-    mapName: 'Germany', latitude: 48.892080609340255, longitude: 8.692046064120937, mapOffset: true, multiLine: true
+    mapName: 'Germany', latitude: 48.892080609340255, longitude: 8.692046064120937
   },
 
   {
     location: 'EU', eventDate: '2026-03', day: 21, month: 3, displayDays: "21st & 22nd", name: "Belgian Jigsaw Puzzle Championship 2026", organiser: 'belgium', locationDesc: "GC De Roosenberg",
     url: 'https://www.speedpuzzling.be/event/belgian-jigsaw-puzzle-championship-2026-23/register', ticketUrl: 'https://worldjigsawpuzzle.org/speedpuzzlingbelgium/2026/register',
-    mapName: 'Belgium', latitude: 50.82352037460061, longitude: 4.657874346808696,
+    mapName: 'Belgium', latitude: 50.82352037460061, longitude: 4.657874346808696, mapUrl: 'https://maps.app.goo.gl/ptDB8QTvrjSWvL8w5',
   },
 
   {
     location: 'EU', eventDate: '2026-03', day: 14, month: 3, displayDays: "14th & 15th", name: "Pussel-SM 2026", rightName: 'Sweden', organiser: 'sweden', locationDesc: "Partille, Sweden",
-    url: 'https://www.svenskapusselforbundet.se/pussel-sm-2026/', ticketUrl: 'https://worldjigsawpuzzle.org/svenskapusselforbundet/2026/register',
+    url: 'https://www.svenskapusselforbundet.se/pussel-sm-2026/', ticketUrl: 'https://worldjigsawpuzzle.org/svenskapusselforbundet/2026/register', mapUrl: 'https://maps.app.goo.gl/hgAiQ5xKEEVJ44fH6',
     mapName: 'Sweden', latitude: 57.74025058265133, longitude: 12.117314733729872
   },
 
@@ -96,7 +96,7 @@ export const eventsList: PuzzleEvent[] = [
 
   {
     location: 'AM', eventDate: '2026-03', day: 27, month: 3, displayDays: "27th - 29th", name: "US Nationals 2026", fullName: "2026 USA Jigsaw Nationals", organiser: 'usajpa', locationDesc: "Atlanta, Georgia, USA",
-    url: 'https://www.usajigsaw.org/2026-nationals', ticketUrl: 'https://www.tickettailor.com/events/usajigsawpuzzleassociation/1841501',
+    url: 'https://www.usajigsaw.org/2026-nationals', ticketUrl: 'https://www.tickettailor.com/events/usajigsawpuzzleassociation/1841501', rightName: 'US Nationals',
     mapName: 'USA Nationals', latitude: 33.76044940500072, longitude: -84.3882822743022
   },
 
@@ -203,6 +203,42 @@ export const eventsList: PuzzleEvent[] = [
     mapName: 'Euros', latitude: 41.01641523236803, longitude: 28.98241805589289
   },
 
+
+  {
+    location: "AU", displayDays: "21st", day: 21, month: 3, name: 'Tasmania', rightName: 'Tasmania State', organiser: 'ajpa', venueName: 'Hobart City Hall', locationDesc: "Hobart, Tasmania", host: "AJPA",
+    eventDate: '2026-03', url: 'https://australianjigsawpuzzle.org.au/event-info/tas-2026/', ticketUrl: 'https://events.humanitix.com/tasmania-state-jigsaw-2026',
+    latitude: -42.88259863806437, longitude: 147.33115824215065, mapName: 'Tasmania State', mapUrl: 'https://maps.app.goo.gl/i4mC4pXoQZ7zFAiv6',
+  },
+
+  {
+    location: "AU", displayDays: "30th", day: 20, month: 6, name: 'WA State Competition', rightName: 'WA State', organiser: 'ajpa', venueName: 'Belmont Oasis Leisure Centre', locationDesc: "Perth, Western Australia", host: "AJPA",
+    eventDate: '2026-05', url: 'https://australianjigsawpuzzle.org.au/event-info/wa-2026/', mapUrl: 'https://maps.app.goo.gl/H4YRhZ5CaGf2oApx8', streamUrl: 'https://www.youtube.com/@AustralianJigsawPuzzle',
+    latitude: -31.96018245630566, longitude: 115.93137768451369, mapName: 'WA State'
+  },
+
+  {
+    location: "AU", displayDays: "19th", day: 20, month: 6, name: 'New South Wales State Competition', rightName: 'NSW State', organiser: 'ajpa', venueName: 'Marrickville Town Hall', locationDesc: "Sydney, NSW", host: "AJPA",
+    eventDate: '2026-06', url: 'https://australianjigsawpuzzle.org.au/event-info/nsw-2026/', mapUrl: 'https://maps.app.goo.gl/JFQgfP8ZutDdYyHNA', streamUrl: 'https://www.youtube.com/@AustralianJigsawPuzzle',
+    latitude: -33.909093364869925, longitude: 151.15414629804835, mapName: 'NSW State'
+  },
+
+  {
+    location: "AU", displayDays: "11th", day: 11, month: 7, name: 'Queensland State Competition', rightName: 'Queensland State', organiser: 'ajpa', locationDesc: "Brisbane, Queensland", host: "AJPA",
+    eventDate: '2026-07', url: 'https://australianjigsawpuzzle.org.au/event-info/qld-2026/', mapUrl: 'https://maps.app.goo.gl/5QR992tzPWyvMGSh8', streamUrl: 'https://www.youtube.com/@AustralianJigsawPuzzle',
+    latitude: -27.48131992783164, longitude: 153.01710958931915, mapName: 'Queensland State'
+  },
+
+  {
+    location: "AU", displayDays: "15th", day: 15, month: 8, name: 'Victoria State Competition', rightName: 'Victoria State', organiser: 'ajpa', locationDesc: "Melbourne, Victoria", host: "AJPA",
+    eventDate: '2026-08', url: 'https://australianjigsawpuzzle.org.au/', mapUrl: 'https://maps.app.goo.gl/26DrSuAmN15VRUNe6', streamUrl: 'https://www.youtube.com/@AustralianJigsawPuzzle',
+    latitude: -37.85627047636926, longitude: 145.02968899175187, mapName: 'Victoria State'
+  },
+
+  {
+    location: "AU", displayDays: "17th", day: 17, month: 10, name: 'ACT Competition', rightName: 'ACT "State"', organiser: 'ajpa', locationDesc: "Canberra, ACT", host: "AJPA",
+    eventDate: '2026-10', url: 'https://australianjigsawpuzzle.org.au/event-info/act-2026/', mapUrl: 'https://maps.app.goo.gl/mVawsXqmkyD3ZAFY9', streamUrl: 'https://www.youtube.com/@AustralianJigsawPuzzle',
+    latitude: -35.23131687357166, longitude: 149.14905521148657, mapName: 'ACT "State"'
+  },
 
   /*
   
