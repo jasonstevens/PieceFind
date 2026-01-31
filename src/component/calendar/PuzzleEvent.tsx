@@ -56,6 +56,10 @@ export const eventsList: PuzzleEvent[] = [
   { location: "OL", day: 27, month: 2, displayDays: "25th", time: "7:30am", name: 'Puzzle Guzzle #30', rightName: '#30', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-02', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-30-pairs-event-27-02-26-7pm-damaged-copy', soldOut: true },
   { location: "OL", day: 1, month: 3, displayDays: "1st", time: "1:00pm", name: 'Puzzle Guzzle #31', rightName: '#31', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-31-individual-event-trialogy-01-03-26-9am', soldOut: true },
 
+  { location: "OL", day: 10, month: 3, displayDays: "10th", time: "7:00pm", name: 'Puzzle Guzzle #32', rightName: '#32', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-32-individual-event-10-03-26-7pm' },
+  { location: "OL", day: 20, month: 3, displayDays: "20th", time: "7:00pm", name: 'Puzzle Guzzle #33', rightName: '#33', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-33-individual-event-20-03-26-7pm' },
+  { location: "OL", day: 29, month: 3, displayDays: "29th", time: "2:00pm", name: 'Puzzle Guzzle #34', rightName: '#34', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-33-1000-pieces-dream-teams-29-03-26-2pm' },
+
   // {
   //   location: "OL", day: 6, month: 11, displayDays: "6th", leftName: "#100", name: 'Euro Jigsaw Jam #100', organiser: 'ejj', host: "ejj", eventDate: '2025-11',
   //   url: 'https://speedpuzzle.eu/eurojigsawjam/', ticketUrl: "https://speedpuzzle.eu/Events/", soldOut: true
@@ -137,7 +141,7 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: 'EU', eventDate: '2026-04', day: 11, month: 4, displayDays: "4th", name: "Slovenia 2026", organiser: 'slovenia', locationDesc: "Novo Mesto, Slovenia", rightName: "Slovenia",
+    location: 'EU', eventDate: '2026-04', day: 11, month: 4, displayDays: "11th", name: "Slovenia 2026", organiser: 'slovenia', locationDesc: "Novo Mesto, Slovenia", rightName: "Slovenia",
     url: "https://drustvosestavljank.si/",
     mapName: 'Slovenia', latitude: 45.794297551617156, longitude: 15.154642512934878
   },
@@ -203,6 +207,11 @@ export const eventsList: PuzzleEvent[] = [
     mapName: 'Euros', latitude: 41.01641523236803, longitude: 28.98241805589289
   },
 
+  {
+    location: 'EU', eventDate: '2026-09', day: 16, month: 9, displayDays: "16th - 20th", name: "Worlds 2026", rightName: 'Worlds', organiser: 'wjpf', locationDesc: "Guess! (TBC)",
+    url: 'https://worldjigsawpuzzle.org/',
+    mapName: 'WJPC', latitude: 41.64616223789908, longitude: -4.7296093377081885
+  },
 
   {
     location: "AU", displayDays: "21st", day: 21, month: 3, name: 'Tasmania', rightName: 'Tas State', organiser: 'ajpa', venueName: 'Hobart City Hall', locationDesc: "Hobart, Tasmania", host: "AJPA",
