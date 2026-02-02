@@ -208,9 +208,9 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: 'EU', eventDate: '2026-09', day: 16, month: 9, displayDays: "16th - 20th", name: "Worlds 2026", rightName: 'Worlds', organiser: 'wjpf', locationDesc: "Guess! (TBC)",
-    url: 'https://worldjigsawpuzzle.org/',
-    mapName: 'WJPC', latitude: 41.64616223789908, longitude: -4.7296093377081885
+    location: 'EU', eventDate: '2026-09', day: 16, month: 9, displayDays: "16th - 20th", name: "Worlds 2026", rightName: 'WJPC', organiser: 'wjpf', locationDesc: "Valladolid, Spain",
+    url: 'https://worldjigsawpuzzle.org/', mapUrl: 'https://maps.app.goo.gl/WJuXzoB2LNs19gUXA',
+    mapName: 'WJPC', latitude: 41.65600832360622, longitude: -4.739326381865645
   },
 
   {
