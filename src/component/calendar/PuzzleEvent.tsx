@@ -51,13 +51,18 @@ export const eventsList: PuzzleEvent[] = [
     latitude: 53.84026951006154, longitude: -1.7003488275568006, mapName: 'UK Nationals'
   },
 
-  { location: "OL", day: 8, month: 2, displayDays: "8th", time: "10:30am", name: 'Puzzle Guzzle #29', rightName: '#29', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-02', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-29-individual-event-300-pieces-08-02-26-10-30am', soldOut: true },
+  {
+    location: "UK", day: 21, month: 6, displayDays: "18th & 19th", name: 'Gibsons Open', organiser: 'generic', locationDesc: "Newmarket", eventDate: '2026-06',
+    ticketUrl: 'https://www.eventbrite.co.uk/e/gibsons-open-jigsaw-championships-2026-tickets-1977989469750',
+    latitude: 52.2380149614202, longitude: 0.3748477818725593, mapName: 'Gibsons Open'
+  },
+
   { location: "OL", day: 27, month: 2, displayDays: "25th", time: "7:30am", name: 'Puzzle Guzzle #30', rightName: '#30', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-02', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-30-pairs-event-27-02-26-7pm-damaged-copy', soldOut: true },
   { location: "OL", day: 1, month: 3, displayDays: "1st", time: "1:00pm", name: 'Puzzle Guzzle #31', rightName: '#31', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-31-individual-event-trialogy-01-03-26-9am', soldOut: true },
 
-  { location: "OL", day: 10, month: 3, displayDays: "10th", time: "7:00pm", name: 'Puzzle Guzzle #32', rightName: '#32', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-32-individual-event-10-03-26-7pm' },
-  { location: "OL", day: 20, month: 3, displayDays: "20th", time: "7:00pm", name: 'Puzzle Guzzle #33', rightName: '#33', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-33-individual-event-20-03-26-7pm' },
-  { location: "OL", day: 29, month: 3, displayDays: "29th", time: "2:00pm", name: 'Puzzle Guzzle #34', rightName: '#34', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-33-1000-pieces-dream-teams-29-03-26-2pm' },
+  { location: "OL", day: 10, month: 3, displayDays: "10th", time: "7:00pm", name: 'Puzzle Guzzle #32', rightName: '#32', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-32-individual-event-10-03-26-7pm', soldOut: true },
+  { location: "OL", day: 20, month: 3, displayDays: "20th", time: "7:00pm", name: 'Puzzle Guzzle #33', rightName: '#33', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-33-individual-event-20-03-26-7pm', soldOut: true },
+  { location: "OL", day: 29, month: 3, displayDays: "29th", time: "2:00pm", name: 'Puzzle Guzzle #34', rightName: '#34', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-33-1000-pieces-dream-teams-29-03-26-2pm', soldOut: true },
 
   // {
   //   location: "OL", day: 6, month: 11, displayDays: "6th", leftName: "#100", name: 'Euro Jigsaw Jam #100', organiser: 'ejj', host: "ejj", eventDate: '2025-11',
@@ -122,6 +127,19 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
+    location: 'AS', eventDate: '2026-04', day: 19, month: 4, displayDays: "19th", name: "Thailand 2026", organiser: 'thailand', locationDesc: "Bangkok, Thailand",
+    url: 'https://www.instagram.com/thailandjigsaw/', mapUrl: 'https://maps.app.goo.gl/5oUpFehr6jvTS7GBA',
+    mapName: 'Thailand', latitude: 13.68764761946685, longitude: 100.64766854644633
+  },
+
+  {
+    location: 'AM', eventDate: '2026-04', day: 25, month: 4, displayDays: "25th", name: "Peru 2026", organiser: 'peru', locationDesc: "Lima, Peru",
+    url: 'https://www.instagram.com/rompecabezas.peru/', mapUrl: 'https://maps.app.goo.gl/wtJSwEwkNWgX8t728',
+    mapName: 'Peru', latitude: -12.104363339491808, longitude: -77.03865896344966
+  },
+
+
+  {
     location: 'EU', eventDate: '2026-06', day: 6, month: 6, displayDays: "6th & 7th", name: "Netherlands 2026", organiser: 'netherlands', locationDesc: "Netherlands",
     url: 'https://speedpuzzling.nl/en/',
     mapName: 'Netherlands', latitude: 52.11071155167927, longitude: 5.1741815825762
@@ -146,7 +164,7 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: 'EU', eventDate: '2026-04', day: 18, month: 4, displayDays: "18th & 19th", name: "Hungary 2026", rightName: "Hungary", organiser: 'hungary', locationDesc: "Finland",
+    location: 'EU', eventDate: '2026-04', day: 18, month: 4, displayDays: "18th & 19th", name: "Hungary 2026", rightName: "Hungary", organiser: 'hungary', locationDesc: "Hungary",
     url: 'https://www.mopepuzzle.hu/event.php?id=8',
     mapName: 'Hungary', latitude: 47.25230039280502, longitude: 19.620625084620837
   },

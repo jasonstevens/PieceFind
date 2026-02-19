@@ -33,7 +33,7 @@ export default function EventMonth({ puzzleEvents, month }: EMProps) {
   else
     return (
       <>
-        <Stack direction="row" sx={{ paddingTop: 1 }}>
+        <Stack direction="row" sx={{ paddingTop: 0.5 }}>
           <Box>
             <Typography sx={{
               writingMode: 'sideways-lr', padding: 0, fontSize: '2em',
@@ -42,7 +42,7 @@ export default function EventMonth({ puzzleEvents, month }: EMProps) {
               {monthhName(month)}
             </Typography>
           </Box>
-          <Grid container spacing={0.5} columns={{ xs: 4, sm: 8, md: 10, lg: 10, xl: 10 }} sx={{ width: '100%' }}>
+          <Grid container spacing={0.5} columns={{ xs: 4, sm: 8, md: 12, lg: 12, xl: 12 }} sx={{ width: '100%' }}>
             {puzzleEvents.sort((x, y) => x.day - y.day).map((puzzleEvent) => (
               <Grid size={2}>
                 <EventCard puzzleEvent={puzzleEvent} />
