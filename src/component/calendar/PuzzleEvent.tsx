@@ -40,11 +40,11 @@ export interface PuzzleEvent {
 }
 
 export const eventsList: PuzzleEvent[] = [
-  {
-    location: "UK", day: 22, month: 2, displayDays: "22nd", name: 'Championship: Cardiff', organiser: 'ukjpa-cardiff', locationDesc: "Cardiff, Wales, UK", host: "ukjpa", eventDate: '2026-02',
-    url: 'https://ukjpa.org/cardiff2026/', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91587', mapUrl: 'https://maps.app.goo.gl/be62nMEtoenA7Lnv5', streamUrl: 'https://www.youtube.com/@UKJPA/streams',
-    latitude: 51.471149385793254, longitude: -3.20049132912831, mapName: 'Cardiff'
-  },
+  // {
+  //   location: "UK", day: 22, month: 2, displayDays: "22nd", name: 'Championship: Cardiff', organiser: 'ukjpa-cardiff', locationDesc: "Cardiff, Wales, UK", host: "ukjpa", eventDate: '2026-02',
+  //   url: 'https://ukjpa.org/cardiff2026/', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91587', mapUrl: 'https://maps.app.goo.gl/be62nMEtoenA7Lnv5', streamUrl: 'https://www.youtube.com/@UKJPA/streams',
+  //   latitude: 51.471149385793254, longitude: -3.20049132912831, mapName: 'Cardiff'
+  // },
   {
     location: "UK", day: 18, month: 4, displayDays: "18th & 19th", name: 'UK Nationals 2026', organiser: 'ukjpa-nationals', locationDesc: "Bradford, Yorkshire", host: "ukjpa", eventDate: '2026-04',
     url: 'https://ukjpa.org/nationals2026/', mapUrl: 'https://maps.app.goo.gl/rwNkK5dM8oJiQ8UZ9', ticketUrl: 'https://www.trybooking.com/uk/events/landing/91594', streamUrl: 'https://www.youtube.com/@UKJPA/streams',
@@ -52,7 +52,7 @@ export const eventsList: PuzzleEvent[] = [
   },
 
   {
-    location: "UK", day: 21, month: 6, displayDays: "18th & 19th", name: 'Gibsons Open', organiser: 'generic', locationDesc: "Newmarket", eventDate: '2026-06',
+    location: "UK", day: 21, month: 6, displayDays: "18th & 19th", name: 'Gibsons Open', organiser: 'generic', locationDesc: "Newmarket", eventDate: '2026-06', rightName: 'Gibsons',
     ticketUrl: 'https://www.eventbrite.co.uk/e/gibsons-open-jigsaw-championships-2026-tickets-1977989469750',
     latitude: 52.2380149614202, longitude: 0.3748477818725593, mapName: 'Gibsons Open'
   },
@@ -80,31 +80,35 @@ export const eventsList: PuzzleEvent[] = [
 
   {
     location: 'EU', eventDate: '2026-03', day: 28, month: 3, displayDays: "28th & 29th", name: "Deutsche Puzzlemeisterschaft 2026", organiser: 'germany', locationDesc: "Pforzheim, Germany",
-    url: 'https://puzzleverein.de/event.php?id=7', rightName: 'Germany',
+    url: 'https://puzzleverein.de/event.php?id=7', rightName: 'Germany', streamUrl: 'https://www.youtube.com/@puzzleverein_de/streams',
     mapName: 'Germany', latitude: 48.892080609340255, longitude: 8.692046064120937
   },
 
   {
     location: 'EU', eventDate: '2026-03', day: 21, month: 3, displayDays: "21st & 22nd", name: "Belgian Jigsaw Puzzle Championship 2026", organiser: 'belgium', locationDesc: "GC De Roosenberg",
     url: 'https://www.speedpuzzling.be/event/belgian-jigsaw-puzzle-championship-2026-23/register', ticketUrl: 'https://worldjigsawpuzzle.org/speedpuzzlingbelgium/2026/register',
+    streamUrl: 'https://www.youtube.com/@SpeedpuzzlingBelgium24/streams',
     mapName: 'Belgium', latitude: 50.82352037460061, longitude: 4.657874346808696, mapUrl: 'https://maps.app.goo.gl/ptDB8QTvrjSWvL8w5',
   },
 
   {
     location: 'EU', eventDate: '2026-03', day: 14, month: 3, displayDays: "14th & 15th", name: "Pussel-SM 2026", rightName: 'Sweden', organiser: 'sweden', locationDesc: "Partille, Sweden",
     url: 'https://www.svenskapusselforbundet.se/pussel-sm-2026/', ticketUrl: 'https://worldjigsawpuzzle.org/svenskapusselforbundet/2026/register', mapUrl: 'https://maps.app.goo.gl/hgAiQ5xKEEVJ44fH6',
+    streamUrl: 'https://www.youtube.com/@pusselforbundet/streams',
     mapName: 'Sweden', latitude: 57.74025058265133, longitude: 12.117314733729872
   },
 
   {
     location: 'EU', eventDate: '2026-02', day: 28, month: 2, displayDays: "28th & 1st", name: "Denmark 2026", fullName: "DM i speedpuzzling ’26", organiser: 'denmark', locationDesc: "Ørbvej, Denmark",
     url: 'https://danskpuslespilsforening.dk/dm-i-speedpuzzling/', rightName: "Denmark", ticketUrl: 'https://worldjigsawpuzzle.org/danskpuslespilsforening/2026/register',
-    mapName: 'Denmark', latitude: 55.370968837543636, longitude: 10.450585478061193,
+    streamUrl: 'https://www.youtube.com/@DanskPuslespilsforening',
+    mapName: 'Denmark', latitude: 55.370968837543636, longitude: 10.450585478061193
   },
 
   {
     location: 'AM', eventDate: '2026-03', day: 27, month: 3, displayDays: "27th - 29th", name: "US Nationals 2026", fullName: "2026 USA Jigsaw Nationals", organiser: 'usajpa', locationDesc: "Atlanta, Georgia, USA",
     url: 'https://www.usajigsaw.org/2026-nationals', ticketUrl: 'https://www.tickettailor.com/events/usajigsawpuzzleassociation/1841501', rightName: 'US Nationals',
+    streamUrl: 'https://www.youtube.com/@usajigsaw/streams',
     mapName: 'USA Nationals', latitude: 33.76044940500072, longitude: -84.3882822743022
   },
 
