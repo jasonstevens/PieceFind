@@ -57,12 +57,20 @@ export const eventsList: PuzzleEvent[] = [
     latitude: 52.2380149614202, longitude: 0.3748477818725593, mapName: 'Gibsons Open'
   },
 
-  { location: "OL", day: 27, month: 2, displayDays: "27th", time: "7:00pm", name: 'Puzzle Guzzle #30', rightName: '#30', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-02', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-30-pairs-event-27-02-26-7pm-damaged-copy', soldOut: true },
-  { location: "OL", day: 1, month: 3, displayDays: "1st", time: "1:00pm", name: 'Puzzle Guzzle #31', rightName: '#31', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-31-individual-event-trialogy-01-03-26-9am', soldOut: true },
+  { location: "OL", day: 1, month: 3, displayDays: "1st", time: "1:00pm", name: 'Puzzle Guzzle #31', rightName: '#31', organiser: 'puzzleguzzle', host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-31-individual-event-trialogy-01-03-26-9am', soldOut: true },
+  { location: "OL", day: 10, month: 3, displayDays: "10th", time: "7:00pm", name: 'Puzzle Guzzle #32', rightName: '#32', organiser: 'puzzleguzzle', host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-32-individual-event-10-03-26-7pm', soldOut: true },
+  { location: "OL", day: 20, month: 3, displayDays: "20th", time: "7:00pm", name: 'Puzzle Guzzle #33', rightName: '#33', organiser: 'puzzleguzzle', host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-33-individual-event-20-03-26-7pm', soldOut: true },
+  { location: "OL", day: 29, month: 3, displayDays: "29th", time: "2:00pm", name: 'Puzzle Guzzle #34', rightName: '#34', organiser: 'puzzleguzzle', host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-33-1000-pieces-dream-teams-29-03-26-2pm' },
 
-  { location: "OL", day: 10, month: 3, displayDays: "10th", time: "7:00pm", name: 'Puzzle Guzzle #32', rightName: '#32', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-32-individual-event-10-03-26-7pm', soldOut: true },
-  { location: "OL", day: 20, month: 3, displayDays: "20th", time: "7:00pm", name: 'Puzzle Guzzle #33', rightName: '#33', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-33-individual-event-20-03-26-7pm', soldOut: true },
-  { location: "OL", day: 29, month: 3, displayDays: "29th", time: "2:00pm", name: 'Puzzle Guzzle #34', rightName: '#34', organiser: 'puzzleguzzle', locationDesc: "", host: "puzzleguzzle", eventDate: '2026-03', url: 'https://www.thepuzzleguzzle.co.uk/', ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-33-1000-pieces-dream-teams-29-03-26-2pm', soldOut: true },
+  {
+    location: "OL", day: 4, month: 4, displayDays: "4th", time: "7:00pm", name: 'Puzzle Guzzle #35', rightName: '#35', organiser: 'puzzleguzzle', host: "puzzleguzzle", eventDate: '2026-04', url: 'https://www.thepuzzleguzzle.co.uk/',
+    ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-34-individual-event-07-04-26-7pm'
+  },
+  {
+    location: "OL", day: 25, month: 4, displayDays: "25th", time: "2:00pm", name: 'Puzzle Guzzle #36', rightName: '#36', organiser: 'puzzleguzzle', host: "puzzleguzzle", eventDate: '2026-04', url: 'https://www.thepuzzleguzzle.co.uk/',
+    ticketUrl: 'https://thepuzzleguzzle.myshopify.com/products/puzzle-guzzle-36-individual-event-25-04-26-2pm'
+  },
+
 
   // {
   //   location: "OL", day: 6, month: 11, displayDays: "6th", leftName: "#100", name: 'Euro Jigsaw Jam #100', organiser: 'ejj', host: "ejj", eventDate: '2025-11',
